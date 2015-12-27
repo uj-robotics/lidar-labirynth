@@ -1,0 +1,439 @@
+format version: 5
+output mode:
+1 items
+0 -> single
+output directories:
+1 items
+output dir -> /home/sobota/IdeaProjects/RobotDataProcessor/target/scala-2.11/classes
+compile options:
+0 items
+javac options:
+0 items
+compiler version:
+1 items
+0 -> 2.11.7
+compile order:
+1 items
+0 -> Mixed
+name hashing:
+1 items
+0 -> true
+products:
+20 items
+/home/sobota/IdeaProjects/RobotDataProcessor/src/main/scala/nkr/uj/lidar/network/LidarPacket.scala -> /home/sobota/IdeaProjects/RobotDataProcessor/target/scala-2.11/classes/nkr/uj/lidar/network/LidarPacket$.class
+/home/sobota/IdeaProjects/RobotDataProcessor/src/main/scala/nkr/uj/lidar/network/LidarPacket.scala -> /home/sobota/IdeaProjects/RobotDataProcessor/target/scala-2.11/classes/nkr/uj/lidar/network/LidarPacket.class
+/home/sobota/IdeaProjects/RobotDataProcessor/src/main/scala/nkr/uj/lidar/network/Main.scala -> /home/sobota/IdeaProjects/RobotDataProcessor/target/scala-2.11/classes/nkr/uj/lidar/network/Main$$anon$1.class
+/home/sobota/IdeaProjects/RobotDataProcessor/src/main/scala/nkr/uj/lidar/network/Main.scala -> /home/sobota/IdeaProjects/RobotDataProcessor/target/scala-2.11/classes/nkr/uj/lidar/network/Main$$anonfun$1.class
+/home/sobota/IdeaProjects/RobotDataProcessor/src/main/scala/nkr/uj/lidar/network/Main.scala -> /home/sobota/IdeaProjects/RobotDataProcessor/target/scala-2.11/classes/nkr/uj/lidar/network/Main$$anonfun$2$$anonfun$apply$1.class
+/home/sobota/IdeaProjects/RobotDataProcessor/src/main/scala/nkr/uj/lidar/network/Main.scala -> /home/sobota/IdeaProjects/RobotDataProcessor/target/scala-2.11/classes/nkr/uj/lidar/network/Main$$anonfun$2$$anonfun$apply$2.class
+/home/sobota/IdeaProjects/RobotDataProcessor/src/main/scala/nkr/uj/lidar/network/Main.scala -> /home/sobota/IdeaProjects/RobotDataProcessor/target/scala-2.11/classes/nkr/uj/lidar/network/Main$$anonfun$2.class
+/home/sobota/IdeaProjects/RobotDataProcessor/src/main/scala/nkr/uj/lidar/network/Main.scala -> /home/sobota/IdeaProjects/RobotDataProcessor/target/scala-2.11/classes/nkr/uj/lidar/network/Main$.class
+/home/sobota/IdeaProjects/RobotDataProcessor/src/main/scala/nkr/uj/lidar/network/Main.scala -> /home/sobota/IdeaProjects/RobotDataProcessor/target/scala-2.11/classes/nkr/uj/lidar/network/Main$delayedInit$body.class
+/home/sobota/IdeaProjects/RobotDataProcessor/src/main/scala/nkr/uj/lidar/network/Main.scala -> /home/sobota/IdeaProjects/RobotDataProcessor/target/scala-2.11/classes/nkr/uj/lidar/network/Main.class
+/home/sobota/IdeaProjects/RobotDataProcessor/src/main/scala/nkr/uj/lidar/network/NetworkConnector.scala -> /home/sobota/IdeaProjects/RobotDataProcessor/target/scala-2.11/classes/nkr/uj/lidar/network/NetworkConnector$$anonfun$1.class
+/home/sobota/IdeaProjects/RobotDataProcessor/src/main/scala/nkr/uj/lidar/network/NetworkConnector.scala -> /home/sobota/IdeaProjects/RobotDataProcessor/target/scala-2.11/classes/nkr/uj/lidar/network/NetworkConnector$$anonfun$apply$1.class
+/home/sobota/IdeaProjects/RobotDataProcessor/src/main/scala/nkr/uj/lidar/network/NetworkConnector.scala -> /home/sobota/IdeaProjects/RobotDataProcessor/target/scala-2.11/classes/nkr/uj/lidar/network/NetworkConnector$.class
+/home/sobota/IdeaProjects/RobotDataProcessor/src/main/scala/nkr/uj/lidar/network/NetworkConnector.scala -> /home/sobota/IdeaProjects/RobotDataProcessor/target/scala-2.11/classes/nkr/uj/lidar/network/NetworkConnector.class
+/home/sobota/IdeaProjects/RobotDataProcessor/src/main/scala/nkr/uj/lidar/network/ReadData.scala -> /home/sobota/IdeaProjects/RobotDataProcessor/target/scala-2.11/classes/nkr/uj/lidar/network/ReadData$.class
+/home/sobota/IdeaProjects/RobotDataProcessor/src/main/scala/nkr/uj/lidar/network/ReadData.scala -> /home/sobota/IdeaProjects/RobotDataProcessor/target/scala-2.11/classes/nkr/uj/lidar/network/ReadData.class
+/home/sobota/IdeaProjects/RobotDataProcessor/src/main/scala/nkr/uj/lidar/network/ReadingNumber.scala -> /home/sobota/IdeaProjects/RobotDataProcessor/target/scala-2.11/classes/nkr/uj/lidar/network/ReadingNumber$.class
+/home/sobota/IdeaProjects/RobotDataProcessor/src/main/scala/nkr/uj/lidar/network/ReadingNumber.scala -> /home/sobota/IdeaProjects/RobotDataProcessor/target/scala-2.11/classes/nkr/uj/lidar/network/ReadingNumber.class
+/home/sobota/IdeaProjects/RobotDataProcessor/src/main/scala/nkr/uj/lidar/network/package.scala -> /home/sobota/IdeaProjects/RobotDataProcessor/target/scala-2.11/classes/nkr/uj/lidar/network/package$.class
+/home/sobota/IdeaProjects/RobotDataProcessor/src/main/scala/nkr/uj/lidar/network/package.scala -> /home/sobota/IdeaProjects/RobotDataProcessor/target/scala-2.11/classes/nkr/uj/lidar/network/package.class
+binary dependencies:
+12 items
+/home/sobota/IdeaProjects/RobotDataProcessor/src/main/scala/nkr/uj/lidar/network/LidarPacket.scala -> /home/sobota/.ivy2/cache/org.scala-lang/scala-library/jars/scala-library-2.11.7.jar
+/home/sobota/IdeaProjects/RobotDataProcessor/src/main/scala/nkr/uj/lidar/network/LidarPacket.scala -> /usr/lib/jvm/java-8-jdk/jre/lib/rt.jar
+/home/sobota/IdeaProjects/RobotDataProcessor/src/main/scala/nkr/uj/lidar/network/Main.scala -> /home/sobota/.ivy2/cache/org.scala-lang/scala-library/jars/scala-library-2.11.7.jar
+/home/sobota/IdeaProjects/RobotDataProcessor/src/main/scala/nkr/uj/lidar/network/Main.scala -> /usr/lib/jvm/java-8-jdk/jre/lib/ext/jfxrt.jar
+/home/sobota/IdeaProjects/RobotDataProcessor/src/main/scala/nkr/uj/lidar/network/Main.scala -> /usr/lib/jvm/java-8-jdk/jre/lib/rt.jar
+/home/sobota/IdeaProjects/RobotDataProcessor/src/main/scala/nkr/uj/lidar/network/NetworkConnector.scala -> /home/sobota/.ivy2/cache/org.scala-lang/scala-library/jars/scala-library-2.11.7.jar
+/home/sobota/IdeaProjects/RobotDataProcessor/src/main/scala/nkr/uj/lidar/network/NetworkConnector.scala -> /usr/lib/jvm/java-8-jdk/jre/lib/rt.jar
+/home/sobota/IdeaProjects/RobotDataProcessor/src/main/scala/nkr/uj/lidar/network/ReadData.scala -> /home/sobota/.ivy2/cache/org.scala-lang/scala-library/jars/scala-library-2.11.7.jar
+/home/sobota/IdeaProjects/RobotDataProcessor/src/main/scala/nkr/uj/lidar/network/ReadData.scala -> /usr/lib/jvm/java-8-jdk/jre/lib/rt.jar
+/home/sobota/IdeaProjects/RobotDataProcessor/src/main/scala/nkr/uj/lidar/network/ReadingNumber.scala -> /home/sobota/.ivy2/cache/org.scala-lang/scala-library/jars/scala-library-2.11.7.jar
+/home/sobota/IdeaProjects/RobotDataProcessor/src/main/scala/nkr/uj/lidar/network/package.scala -> /home/sobota/.ivy2/cache/org.scala-lang/scala-library/jars/scala-library-2.11.7.jar
+/home/sobota/IdeaProjects/RobotDataProcessor/src/main/scala/nkr/uj/lidar/network/package.scala -> /usr/lib/jvm/java-8-jdk/jre/lib/rt.jar
+direct source dependencies:
+0 items
+direct external dependencies:
+0 items
+public inherited source dependencies:
+0 items
+public inherited external dependencies:
+0 items
+member reference internal dependencies:
+10 items
+/home/sobota/IdeaProjects/RobotDataProcessor/src/main/scala/nkr/uj/lidar/network/LidarPacket.scala -> /home/sobota/IdeaProjects/RobotDataProcessor/src/main/scala/nkr/uj/lidar/network/ReadData.scala
+/home/sobota/IdeaProjects/RobotDataProcessor/src/main/scala/nkr/uj/lidar/network/LidarPacket.scala -> /home/sobota/IdeaProjects/RobotDataProcessor/src/main/scala/nkr/uj/lidar/network/ReadingNumber.scala
+/home/sobota/IdeaProjects/RobotDataProcessor/src/main/scala/nkr/uj/lidar/network/LidarPacket.scala -> /home/sobota/IdeaProjects/RobotDataProcessor/src/main/scala/nkr/uj/lidar/network/package.scala
+/home/sobota/IdeaProjects/RobotDataProcessor/src/main/scala/nkr/uj/lidar/network/Main.scala -> /home/sobota/IdeaProjects/RobotDataProcessor/src/main/scala/nkr/uj/lidar/network/LidarPacket.scala
+/home/sobota/IdeaProjects/RobotDataProcessor/src/main/scala/nkr/uj/lidar/network/Main.scala -> /home/sobota/IdeaProjects/RobotDataProcessor/src/main/scala/nkr/uj/lidar/network/NetworkConnector.scala
+/home/sobota/IdeaProjects/RobotDataProcessor/src/main/scala/nkr/uj/lidar/network/Main.scala -> /home/sobota/IdeaProjects/RobotDataProcessor/src/main/scala/nkr/uj/lidar/network/ReadData.scala
+/home/sobota/IdeaProjects/RobotDataProcessor/src/main/scala/nkr/uj/lidar/network/Main.scala -> /home/sobota/IdeaProjects/RobotDataProcessor/src/main/scala/nkr/uj/lidar/network/ReadingNumber.scala
+/home/sobota/IdeaProjects/RobotDataProcessor/src/main/scala/nkr/uj/lidar/network/NetworkConnector.scala -> /home/sobota/IdeaProjects/RobotDataProcessor/src/main/scala/nkr/uj/lidar/network/LidarPacket.scala
+/home/sobota/IdeaProjects/RobotDataProcessor/src/main/scala/nkr/uj/lidar/network/NetworkConnector.scala -> /home/sobota/IdeaProjects/RobotDataProcessor/src/main/scala/nkr/uj/lidar/network/ReadData.scala
+/home/sobota/IdeaProjects/RobotDataProcessor/src/main/scala/nkr/uj/lidar/network/NetworkConnector.scala -> /home/sobota/IdeaProjects/RobotDataProcessor/src/main/scala/nkr/uj/lidar/network/package.scala
+member reference external dependencies:
+0 items
+inheritance internal dependencies:
+0 items
+inheritance external dependencies:
+0 items
+class names:
+20 items
+/home/sobota/IdeaProjects/RobotDataProcessor/src/main/scala/nkr/uj/lidar/network/LidarPacket.scala -> nkr.uj.lidar.network.LidarPacket
+/home/sobota/IdeaProjects/RobotDataProcessor/src/main/scala/nkr/uj/lidar/network/LidarPacket.scala -> nkr.uj.lidar.network.LidarPacket$
+/home/sobota/IdeaProjects/RobotDataProcessor/src/main/scala/nkr/uj/lidar/network/Main.scala -> nkr.uj.lidar.network.Main
+/home/sobota/IdeaProjects/RobotDataProcessor/src/main/scala/nkr/uj/lidar/network/Main.scala -> nkr.uj.lidar.network.Main$
+/home/sobota/IdeaProjects/RobotDataProcessor/src/main/scala/nkr/uj/lidar/network/Main.scala -> nkr.uj.lidar.network.Main$$anon$1
+/home/sobota/IdeaProjects/RobotDataProcessor/src/main/scala/nkr/uj/lidar/network/Main.scala -> nkr.uj.lidar.network.Main$$anonfun$1
+/home/sobota/IdeaProjects/RobotDataProcessor/src/main/scala/nkr/uj/lidar/network/Main.scala -> nkr.uj.lidar.network.Main$$anonfun$2
+/home/sobota/IdeaProjects/RobotDataProcessor/src/main/scala/nkr/uj/lidar/network/Main.scala -> nkr.uj.lidar.network.Main$$anonfun$2$$anonfun$apply$1
+/home/sobota/IdeaProjects/RobotDataProcessor/src/main/scala/nkr/uj/lidar/network/Main.scala -> nkr.uj.lidar.network.Main$$anonfun$2$$anonfun$apply$2
+/home/sobota/IdeaProjects/RobotDataProcessor/src/main/scala/nkr/uj/lidar/network/Main.scala -> nkr.uj.lidar.network.Main$delayedInit$body
+/home/sobota/IdeaProjects/RobotDataProcessor/src/main/scala/nkr/uj/lidar/network/NetworkConnector.scala -> nkr.uj.lidar.network.NetworkConnector
+/home/sobota/IdeaProjects/RobotDataProcessor/src/main/scala/nkr/uj/lidar/network/NetworkConnector.scala -> nkr.uj.lidar.network.NetworkConnector$
+/home/sobota/IdeaProjects/RobotDataProcessor/src/main/scala/nkr/uj/lidar/network/NetworkConnector.scala -> nkr.uj.lidar.network.NetworkConnector$$anonfun$1
+/home/sobota/IdeaProjects/RobotDataProcessor/src/main/scala/nkr/uj/lidar/network/NetworkConnector.scala -> nkr.uj.lidar.network.NetworkConnector$$anonfun$apply$1
+/home/sobota/IdeaProjects/RobotDataProcessor/src/main/scala/nkr/uj/lidar/network/ReadData.scala -> nkr.uj.lidar.network.ReadData
+/home/sobota/IdeaProjects/RobotDataProcessor/src/main/scala/nkr/uj/lidar/network/ReadData.scala -> nkr.uj.lidar.network.ReadData$
+/home/sobota/IdeaProjects/RobotDataProcessor/src/main/scala/nkr/uj/lidar/network/ReadingNumber.scala -> nkr.uj.lidar.network.ReadingNumber
+/home/sobota/IdeaProjects/RobotDataProcessor/src/main/scala/nkr/uj/lidar/network/ReadingNumber.scala -> nkr.uj.lidar.network.ReadingNumber$
+/home/sobota/IdeaProjects/RobotDataProcessor/src/main/scala/nkr/uj/lidar/network/package.scala -> nkr.uj.lidar.network.package
+/home/sobota/IdeaProjects/RobotDataProcessor/src/main/scala/nkr/uj/lidar/network/package.scala -> nkr.uj.lidar.network.package$
+used names:
+259 items
+/home/sobota/IdeaProjects/RobotDataProcessor/src/main/scala/nkr/uj/lidar/network/LidarPacket.scala -> &&
+/home/sobota/IdeaProjects/RobotDataProcessor/src/main/scala/nkr/uj/lidar/network/LidarPacket.scala -> *
+/home/sobota/IdeaProjects/RobotDataProcessor/src/main/scala/nkr/uj/lidar/network/LidarPacket.scala -> +
+/home/sobota/IdeaProjects/RobotDataProcessor/src/main/scala/nkr/uj/lidar/network/LidarPacket.scala -> /
+/home/sobota/IdeaProjects/RobotDataProcessor/src/main/scala/nkr/uj/lidar/network/LidarPacket.scala -> <init>
+/home/sobota/IdeaProjects/RobotDataProcessor/src/main/scala/nkr/uj/lidar/network/LidarPacket.scala -> ==
+/home/sobota/IdeaProjects/RobotDataProcessor/src/main/scala/nkr/uj/lidar/network/LidarPacket.scala -> AbstractFunction6
+/home/sobota/IdeaProjects/RobotDataProcessor/src/main/scala/nkr/uj/lidar/network/LidarPacket.scala -> Double
+/home/sobota/IdeaProjects/RobotDataProcessor/src/main/scala/nkr/uj/lidar/network/LidarPacket.scala -> Index
+/home/sobota/IdeaProjects/RobotDataProcessor/src/main/scala/nkr/uj/lidar/network/LidarPacket.scala -> LidarPacket
+/home/sobota/IdeaProjects/RobotDataProcessor/src/main/scala/nkr/uj/lidar/network/LidarPacket.scala -> List
+/home/sobota/IdeaProjects/RobotDataProcessor/src/main/scala/nkr/uj/lidar/network/LidarPacket.scala -> Math
+/home/sobota/IdeaProjects/RobotDataProcessor/src/main/scala/nkr/uj/lidar/network/LidarPacket.scala -> None
+/home/sobota/IdeaProjects/RobotDataProcessor/src/main/scala/nkr/uj/lidar/network/LidarPacket.scala -> Option
+/home/sobota/IdeaProjects/RobotDataProcessor/src/main/scala/nkr/uj/lidar/network/LidarPacket.scala -> Predef
+/home/sobota/IdeaProjects/RobotDataProcessor/src/main/scala/nkr/uj/lidar/network/LidarPacket.scala -> Product
+/home/sobota/IdeaProjects/RobotDataProcessor/src/main/scala/nkr/uj/lidar/network/LidarPacket.scala -> READ_0
+/home/sobota/IdeaProjects/RobotDataProcessor/src/main/scala/nkr/uj/lidar/network/LidarPacket.scala -> READ_1
+/home/sobota/IdeaProjects/RobotDataProcessor/src/main/scala/nkr/uj/lidar/network/LidarPacket.scala -> READ_2
+/home/sobota/IdeaProjects/RobotDataProcessor/src/main/scala/nkr/uj/lidar/network/LidarPacket.scala -> READ_3
+/home/sobota/IdeaProjects/RobotDataProcessor/src/main/scala/nkr/uj/lidar/network/LidarPacket.scala -> ReadData
+/home/sobota/IdeaProjects/RobotDataProcessor/src/main/scala/nkr/uj/lidar/network/LidarPacket.scala -> ReadNumber
+/home/sobota/IdeaProjects/RobotDataProcessor/src/main/scala/nkr/uj/lidar/network/LidarPacket.scala -> ReadingNumber
+/home/sobota/IdeaProjects/RobotDataProcessor/src/main/scala/nkr/uj/lidar/network/LidarPacket.scala -> ScalaRunTime
+/home/sobota/IdeaProjects/RobotDataProcessor/src/main/scala/nkr/uj/lidar/network/LidarPacket.scala -> Serializable
+/home/sobota/IdeaProjects/RobotDataProcessor/src/main/scala/nkr/uj/lidar/network/LidarPacket.scala -> Speed
+/home/sobota/IdeaProjects/RobotDataProcessor/src/main/scala/nkr/uj/lidar/network/LidarPacket.scala -> Statics
+/home/sobota/IdeaProjects/RobotDataProcessor/src/main/scala/nkr/uj/lidar/network/LidarPacket.scala -> StringContext
+/home/sobota/IdeaProjects/RobotDataProcessor/src/main/scala/nkr/uj/lidar/network/LidarPacket.scala -> Tuple2
+/home/sobota/IdeaProjects/RobotDataProcessor/src/main/scala/nkr/uj/lidar/network/LidarPacket.scala -> _toString
+/home/sobota/IdeaProjects/RobotDataProcessor/src/main/scala/nkr/uj/lidar/network/LidarPacket.scala -> anyHash
+/home/sobota/IdeaProjects/RobotDataProcessor/src/main/scala/nkr/uj/lidar/network/LidarPacket.scala -> apply
+/home/sobota/IdeaProjects/RobotDataProcessor/src/main/scala/nkr/uj/lidar/network/LidarPacket.scala -> asInstanceOf
+/home/sobota/IdeaProjects/RobotDataProcessor/src/main/scala/nkr/uj/lidar/network/LidarPacket.scala -> cos
+/home/sobota/IdeaProjects/RobotDataProcessor/src/main/scala/nkr/uj/lidar/network/LidarPacket.scala -> data
+/home/sobota/IdeaProjects/RobotDataProcessor/src/main/scala/nkr/uj/lidar/network/LidarPacket.scala -> data0
+/home/sobota/IdeaProjects/RobotDataProcessor/src/main/scala/nkr/uj/lidar/network/LidarPacket.scala -> data1
+/home/sobota/IdeaProjects/RobotDataProcessor/src/main/scala/nkr/uj/lidar/network/LidarPacket.scala -> data2
+/home/sobota/IdeaProjects/RobotDataProcessor/src/main/scala/nkr/uj/lidar/network/LidarPacket.scala -> data3
+/home/sobota/IdeaProjects/RobotDataProcessor/src/main/scala/nkr/uj/lidar/network/LidarPacket.scala -> degRad
+/home/sobota/IdeaProjects/RobotDataProcessor/src/main/scala/nkr/uj/lidar/network/LidarPacket.scala -> eq
+/home/sobota/IdeaProjects/RobotDataProcessor/src/main/scala/nkr/uj/lidar/network/LidarPacket.scala -> finalizeHash
+/home/sobota/IdeaProjects/RobotDataProcessor/src/main/scala/nkr/uj/lidar/network/LidarPacket.scala -> getDistance
+/home/sobota/IdeaProjects/RobotDataProcessor/src/main/scala/nkr/uj/lidar/network/LidarPacket.scala -> immutable
+/home/sobota/IdeaProjects/RobotDataProcessor/src/main/scala/nkr/uj/lidar/network/LidarPacket.scala -> index
+/home/sobota/IdeaProjects/RobotDataProcessor/src/main/scala/nkr/uj/lidar/network/LidarPacket.scala -> intWrapper
+/home/sobota/IdeaProjects/RobotDataProcessor/src/main/scala/nkr/uj/lidar/network/LidarPacket.scala -> isInstanceOf
+/home/sobota/IdeaProjects/RobotDataProcessor/src/main/scala/nkr/uj/lidar/network/LidarPacket.scala -> java
+/home/sobota/IdeaProjects/RobotDataProcessor/src/main/scala/nkr/uj/lidar/network/LidarPacket.scala -> lang
+/home/sobota/IdeaProjects/RobotDataProcessor/src/main/scala/nkr/uj/lidar/network/LidarPacket.scala -> lidar
+/home/sobota/IdeaProjects/RobotDataProcessor/src/main/scala/nkr/uj/lidar/network/LidarPacket.scala -> mix
+/home/sobota/IdeaProjects/RobotDataProcessor/src/main/scala/nkr/uj/lidar/network/LidarPacket.scala -> network
+/home/sobota/IdeaProjects/RobotDataProcessor/src/main/scala/nkr/uj/lidar/network/LidarPacket.scala -> nkr
+/home/sobota/IdeaProjects/RobotDataProcessor/src/main/scala/nkr/uj/lidar/network/LidarPacket.scala -> package
+/home/sobota/IdeaProjects/RobotDataProcessor/src/main/scala/nkr/uj/lidar/network/LidarPacket.scala -> readNumber
+/home/sobota/IdeaProjects/RobotDataProcessor/src/main/scala/nkr/uj/lidar/network/LidarPacket.scala -> runtime
+/home/sobota/IdeaProjects/RobotDataProcessor/src/main/scala/nkr/uj/lidar/network/LidarPacket.scala -> s
+/home/sobota/IdeaProjects/RobotDataProcessor/src/main/scala/nkr/uj/lidar/network/LidarPacket.scala -> scala
+/home/sobota/IdeaProjects/RobotDataProcessor/src/main/scala/nkr/uj/lidar/network/LidarPacket.scala -> sin
+/home/sobota/IdeaProjects/RobotDataProcessor/src/main/scala/nkr/uj/lidar/network/LidarPacket.scala -> speed
+/home/sobota/IdeaProjects/RobotDataProcessor/src/main/scala/nkr/uj/lidar/network/LidarPacket.scala -> toHexString
+/home/sobota/IdeaProjects/RobotDataProcessor/src/main/scala/nkr/uj/lidar/network/LidarPacket.scala -> toInt
+/home/sobota/IdeaProjects/RobotDataProcessor/src/main/scala/nkr/uj/lidar/network/LidarPacket.scala -> toString
+/home/sobota/IdeaProjects/RobotDataProcessor/src/main/scala/nkr/uj/lidar/network/LidarPacket.scala -> typedProductIterator
+/home/sobota/IdeaProjects/RobotDataProcessor/src/main/scala/nkr/uj/lidar/network/LidarPacket.scala -> uj
+/home/sobota/IdeaProjects/RobotDataProcessor/src/main/scala/nkr/uj/lidar/network/LidarPacket.scala -> unary_-
+/home/sobota/IdeaProjects/RobotDataProcessor/src/main/scala/nkr/uj/lidar/network/LidarPacket.scala -> x
+/home/sobota/IdeaProjects/RobotDataProcessor/src/main/scala/nkr/uj/lidar/network/LidarPacket.scala -> ||
+/home/sobota/IdeaProjects/RobotDataProcessor/src/main/scala/nkr/uj/lidar/network/Main.scala -> $anon
+/home/sobota/IdeaProjects/RobotDataProcessor/src/main/scala/nkr/uj/lidar/network/Main.scala -> <init>
+/home/sobota/IdeaProjects/RobotDataProcessor/src/main/scala/nkr/uj/lidar/network/Main.scala -> App
+/home/sobota/IdeaProjects/RobotDataProcessor/src/main/scala/nkr/uj/lidar/network/Main.scala -> Console
+/home/sobota/IdeaProjects/RobotDataProcessor/src/main/scala/nkr/uj/lidar/network/Main.scala -> Main
+/home/sobota/IdeaProjects/RobotDataProcessor/src/main/scala/nkr/uj/lidar/network/Main.scala -> None
+/home/sobota/IdeaProjects/RobotDataProcessor/src/main/scala/nkr/uj/lidar/network/Main.scala -> Predef
+/home/sobota/IdeaProjects/RobotDataProcessor/src/main/scala/nkr/uj/lidar/network/Main.scala -> READ_1
+/home/sobota/IdeaProjects/RobotDataProcessor/src/main/scala/nkr/uj/lidar/network/Main.scala -> ReadingNumber
+/home/sobota/IdeaProjects/RobotDataProcessor/src/main/scala/nkr/uj/lidar/network/Main.scala -> Stage
+/home/sobota/IdeaProjects/RobotDataProcessor/src/main/scala/nkr/uj/lidar/network/Main.scala -> StringContext
+/home/sobota/IdeaProjects/RobotDataProcessor/src/main/scala/nkr/uj/lidar/network/Main.scala -> apply
+/home/sobota/IdeaProjects/RobotDataProcessor/src/main/scala/nkr/uj/lidar/network/Main.scala -> asInstanceOf
+/home/sobota/IdeaProjects/RobotDataProcessor/src/main/scala/nkr/uj/lidar/network/Main.scala -> connector
+/home/sobota/IdeaProjects/RobotDataProcessor/src/main/scala/nkr/uj/lidar/network/Main.scala -> data
+/home/sobota/IdeaProjects/RobotDataProcessor/src/main/scala/nkr/uj/lidar/network/Main.scala -> finish
+/home/sobota/IdeaProjects/RobotDataProcessor/src/main/scala/nkr/uj/lidar/network/Main.scala -> foreach
+/home/sobota/IdeaProjects/RobotDataProcessor/src/main/scala/nkr/uj/lidar/network/Main.scala -> getAxisDistance
+/home/sobota/IdeaProjects/RobotDataProcessor/src/main/scala/nkr/uj/lidar/network/Main.scala -> getDistance
+/home/sobota/IdeaProjects/RobotDataProcessor/src/main/scala/nkr/uj/lidar/network/Main.scala -> getOrElse
+/home/sobota/IdeaProjects/RobotDataProcessor/src/main/scala/nkr/uj/lidar/network/Main.scala -> in
+/home/sobota/IdeaProjects/RobotDataProcessor/src/main/scala/nkr/uj/lidar/network/Main.scala -> intWrapper
+/home/sobota/IdeaProjects/RobotDataProcessor/src/main/scala/nkr/uj/lidar/network/Main.scala -> isInstanceOf
+/home/sobota/IdeaProjects/RobotDataProcessor/src/main/scala/nkr/uj/lidar/network/Main.scala -> javafx
+/home/sobota/IdeaProjects/RobotDataProcessor/src/main/scala/nkr/uj/lidar/network/Main.scala -> lidar
+/home/sobota/IdeaProjects/RobotDataProcessor/src/main/scala/nkr/uj/lidar/network/Main.scala -> network
+/home/sobota/IdeaProjects/RobotDataProcessor/src/main/scala/nkr/uj/lidar/network/Main.scala -> nkr
+/home/sobota/IdeaProjects/RobotDataProcessor/src/main/scala/nkr/uj/lidar/network/Main.scala -> packet
+/home/sobota/IdeaProjects/RobotDataProcessor/src/main/scala/nkr/uj/lidar/network/Main.scala -> println
+/home/sobota/IdeaProjects/RobotDataProcessor/src/main/scala/nkr/uj/lidar/network/Main.scala -> readLine
+/home/sobota/IdeaProjects/RobotDataProcessor/src/main/scala/nkr/uj/lidar/network/Main.scala -> s
+/home/sobota/IdeaProjects/RobotDataProcessor/src/main/scala/nkr/uj/lidar/network/Main.scala -> scala
+/home/sobota/IdeaProjects/RobotDataProcessor/src/main/scala/nkr/uj/lidar/network/Main.scala -> setWidth
+/home/sobota/IdeaProjects/RobotDataProcessor/src/main/scala/nkr/uj/lidar/network/Main.scala -> showAndWait
+/home/sobota/IdeaProjects/RobotDataProcessor/src/main/scala/nkr/uj/lidar/network/Main.scala -> stage
+/home/sobota/IdeaProjects/RobotDataProcessor/src/main/scala/nkr/uj/lidar/network/Main.scala -> to
+/home/sobota/IdeaProjects/RobotDataProcessor/src/main/scala/nkr/uj/lidar/network/Main.scala -> toHexString
+/home/sobota/IdeaProjects/RobotDataProcessor/src/main/scala/nkr/uj/lidar/network/Main.scala -> uj
+/home/sobota/IdeaProjects/RobotDataProcessor/src/main/scala/nkr/uj/lidar/network/Main.scala -> x
+/home/sobota/IdeaProjects/RobotDataProcessor/src/main/scala/nkr/uj/lidar/network/NetworkConnector.scala -> &&
+/home/sobota/IdeaProjects/RobotDataProcessor/src/main/scala/nkr/uj/lidar/network/NetworkConnector.scala -> *
+/home/sobota/IdeaProjects/RobotDataProcessor/src/main/scala/nkr/uj/lidar/network/NetworkConnector.scala -> <init>
+/home/sobota/IdeaProjects/RobotDataProcessor/src/main/scala/nkr/uj/lidar/network/NetworkConnector.scala -> ==
+/home/sobota/IdeaProjects/RobotDataProcessor/src/main/scala/nkr/uj/lidar/network/NetworkConnector.scala -> A1
+/home/sobota/IdeaProjects/RobotDataProcessor/src/main/scala/nkr/uj/lidar/network/NetworkConnector.scala -> AbstractFunction2
+/home/sobota/IdeaProjects/RobotDataProcessor/src/main/scala/nkr/uj/lidar/network/NetworkConnector.scala -> Array
+/home/sobota/IdeaProjects/RobotDataProcessor/src/main/scala/nkr/uj/lidar/network/NetworkConnector.scala -> B1
+/home/sobota/IdeaProjects/RobotDataProcessor/src/main/scala/nkr/uj/lidar/network/NetworkConnector.scala -> Byte
+/home/sobota/IdeaProjects/RobotDataProcessor/src/main/scala/nkr/uj/lidar/network/NetworkConnector.scala -> ClassTag
+/home/sobota/IdeaProjects/RobotDataProcessor/src/main/scala/nkr/uj/lidar/network/NetworkConnector.scala -> DatagramPacket
+/home/sobota/IdeaProjects/RobotDataProcessor/src/main/scala/nkr/uj/lidar/network/NetworkConnector.scala -> DatagramSocket
+/home/sobota/IdeaProjects/RobotDataProcessor/src/main/scala/nkr/uj/lidar/network/NetworkConnector.scala -> ExecutionContext
+/home/sobota/IdeaProjects/RobotDataProcessor/src/main/scala/nkr/uj/lidar/network/NetworkConnector.scala -> Function1
+/home/sobota/IdeaProjects/RobotDataProcessor/src/main/scala/nkr/uj/lidar/network/NetworkConnector.scala -> Future
+/home/sobota/IdeaProjects/RobotDataProcessor/src/main/scala/nkr/uj/lidar/network/NetworkConnector.scala -> Implicits
+/home/sobota/IdeaProjects/RobotDataProcessor/src/main/scala/nkr/uj/lidar/network/NetworkConnector.scala -> Index
+/home/sobota/IdeaProjects/RobotDataProcessor/src/main/scala/nkr/uj/lidar/network/NetworkConnector.scala -> Int
+/home/sobota/IdeaProjects/RobotDataProcessor/src/main/scala/nkr/uj/lidar/network/NetworkConnector.scala -> LidarPacket
+/home/sobota/IdeaProjects/RobotDataProcessor/src/main/scala/nkr/uj/lidar/network/NetworkConnector.scala -> NetworkConnector
+/home/sobota/IdeaProjects/RobotDataProcessor/src/main/scala/nkr/uj/lidar/network/NetworkConnector.scala -> None
+/home/sobota/IdeaProjects/RobotDataProcessor/src/main/scala/nkr/uj/lidar/network/NetworkConnector.scala -> PACKET_SIZE
+/home/sobota/IdeaProjects/RobotDataProcessor/src/main/scala/nkr/uj/lidar/network/NetworkConnector.scala -> Product
+/home/sobota/IdeaProjects/RobotDataProcessor/src/main/scala/nkr/uj/lidar/network/NetworkConnector.scala -> ReadData
+/home/sobota/IdeaProjects/RobotDataProcessor/src/main/scala/nkr/uj/lidar/network/NetworkConnector.scala -> ScalaRunTime
+/home/sobota/IdeaProjects/RobotDataProcessor/src/main/scala/nkr/uj/lidar/network/NetworkConnector.scala -> Serializable
+/home/sobota/IdeaProjects/RobotDataProcessor/src/main/scala/nkr/uj/lidar/network/NetworkConnector.scala -> Speed
+/home/sobota/IdeaProjects/RobotDataProcessor/src/main/scala/nkr/uj/lidar/network/NetworkConnector.scala -> Statics
+/home/sobota/IdeaProjects/RobotDataProcessor/src/main/scala/nkr/uj/lidar/network/NetworkConnector.scala -> Unit
+/home/sobota/IdeaProjects/RobotDataProcessor/src/main/scala/nkr/uj/lidar/network/NetworkConnector.scala -> _root_
+/home/sobota/IdeaProjects/RobotDataProcessor/src/main/scala/nkr/uj/lidar/network/NetworkConnector.scala -> _toString
+/home/sobota/IdeaProjects/RobotDataProcessor/src/main/scala/nkr/uj/lidar/network/NetworkConnector.scala -> anyHash
+/home/sobota/IdeaProjects/RobotDataProcessor/src/main/scala/nkr/uj/lidar/network/NetworkConnector.scala -> apply
+/home/sobota/IdeaProjects/RobotDataProcessor/src/main/scala/nkr/uj/lidar/network/NetworkConnector.scala -> asInstanceOf
+/home/sobota/IdeaProjects/RobotDataProcessor/src/main/scala/nkr/uj/lidar/network/NetworkConnector.scala -> buildPacket
+/home/sobota/IdeaProjects/RobotDataProcessor/src/main/scala/nkr/uj/lidar/network/NetworkConnector.scala -> close
+/home/sobota/IdeaProjects/RobotDataProcessor/src/main/scala/nkr/uj/lidar/network/NetworkConnector.scala -> concurrent
+/home/sobota/IdeaProjects/RobotDataProcessor/src/main/scala/nkr/uj/lidar/network/NetworkConnector.scala -> data0
+/home/sobota/IdeaProjects/RobotDataProcessor/src/main/scala/nkr/uj/lidar/network/NetworkConnector.scala -> data1
+/home/sobota/IdeaProjects/RobotDataProcessor/src/main/scala/nkr/uj/lidar/network/NetworkConnector.scala -> data2
+/home/sobota/IdeaProjects/RobotDataProcessor/src/main/scala/nkr/uj/lidar/network/NetworkConnector.scala -> data3
+/home/sobota/IdeaProjects/RobotDataProcessor/src/main/scala/nkr/uj/lidar/network/NetworkConnector.scala -> eq
+/home/sobota/IdeaProjects/RobotDataProcessor/src/main/scala/nkr/uj/lidar/network/NetworkConnector.scala -> finalizeHash
+/home/sobota/IdeaProjects/RobotDataProcessor/src/main/scala/nkr/uj/lidar/network/NetworkConnector.scala -> future
+/home/sobota/IdeaProjects/RobotDataProcessor/src/main/scala/nkr/uj/lidar/network/NetworkConnector.scala -> getData
+/home/sobota/IdeaProjects/RobotDataProcessor/src/main/scala/nkr/uj/lidar/network/NetworkConnector.scala -> global
+/home/sobota/IdeaProjects/RobotDataProcessor/src/main/scala/nkr/uj/lidar/network/NetworkConnector.scala -> index
+/home/sobota/IdeaProjects/RobotDataProcessor/src/main/scala/nkr/uj/lidar/network/NetworkConnector.scala -> isInstanceOf
+/home/sobota/IdeaProjects/RobotDataProcessor/src/main/scala/nkr/uj/lidar/network/NetworkConnector.scala -> java
+/home/sobota/IdeaProjects/RobotDataProcessor/src/main/scala/nkr/uj/lidar/network/NetworkConnector.scala -> lidar
+/home/sobota/IdeaProjects/RobotDataProcessor/src/main/scala/nkr/uj/lidar/network/NetworkConnector.scala -> lidarPack
+/home/sobota/IdeaProjects/RobotDataProcessor/src/main/scala/nkr/uj/lidar/network/NetworkConnector.scala -> materializeClassTag
+/home/sobota/IdeaProjects/RobotDataProcessor/src/main/scala/nkr/uj/lidar/network/NetworkConnector.scala -> mix
+/home/sobota/IdeaProjects/RobotDataProcessor/src/main/scala/nkr/uj/lidar/network/NetworkConnector.scala -> ne
+/home/sobota/IdeaProjects/RobotDataProcessor/src/main/scala/nkr/uj/lidar/network/NetworkConnector.scala -> net
+/home/sobota/IdeaProjects/RobotDataProcessor/src/main/scala/nkr/uj/lidar/network/NetworkConnector.scala -> network
+/home/sobota/IdeaProjects/RobotDataProcessor/src/main/scala/nkr/uj/lidar/network/NetworkConnector.scala -> nkr
+/home/sobota/IdeaProjects/RobotDataProcessor/src/main/scala/nkr/uj/lidar/network/NetworkConnector.scala -> onSuccess
+/home/sobota/IdeaProjects/RobotDataProcessor/src/main/scala/nkr/uj/lidar/network/NetworkConnector.scala -> package
+/home/sobota/IdeaProjects/RobotDataProcessor/src/main/scala/nkr/uj/lidar/network/NetworkConnector.scala -> packet
+/home/sobota/IdeaProjects/RobotDataProcessor/src/main/scala/nkr/uj/lidar/network/NetworkConnector.scala -> port
+/home/sobota/IdeaProjects/RobotDataProcessor/src/main/scala/nkr/uj/lidar/network/NetworkConnector.scala -> receive
+/home/sobota/IdeaProjects/RobotDataProcessor/src/main/scala/nkr/uj/lidar/network/NetworkConnector.scala -> recvData
+/home/sobota/IdeaProjects/RobotDataProcessor/src/main/scala/nkr/uj/lidar/network/NetworkConnector.scala -> recvPacket
+/home/sobota/IdeaProjects/RobotDataProcessor/src/main/scala/nkr/uj/lidar/network/NetworkConnector.scala -> runtime
+/home/sobota/IdeaProjects/RobotDataProcessor/src/main/scala/nkr/uj/lidar/network/NetworkConnector.scala -> scala
+/home/sobota/IdeaProjects/RobotDataProcessor/src/main/scala/nkr/uj/lidar/network/NetworkConnector.scala -> setReceiveBufferSize
+/home/sobota/IdeaProjects/RobotDataProcessor/src/main/scala/nkr/uj/lidar/network/NetworkConnector.scala -> socket
+/home/sobota/IdeaProjects/RobotDataProcessor/src/main/scala/nkr/uj/lidar/network/NetworkConnector.scala -> speed
+/home/sobota/IdeaProjects/RobotDataProcessor/src/main/scala/nkr/uj/lidar/network/NetworkConnector.scala -> success
+/home/sobota/IdeaProjects/RobotDataProcessor/src/main/scala/nkr/uj/lidar/network/NetworkConnector.scala -> synchronized
+/home/sobota/IdeaProjects/RobotDataProcessor/src/main/scala/nkr/uj/lidar/network/NetworkConnector.scala -> toString
+/home/sobota/IdeaProjects/RobotDataProcessor/src/main/scala/nkr/uj/lidar/network/NetworkConnector.scala -> typedProductIterator
+/home/sobota/IdeaProjects/RobotDataProcessor/src/main/scala/nkr/uj/lidar/network/NetworkConnector.scala -> uj
+/home/sobota/IdeaProjects/RobotDataProcessor/src/main/scala/nkr/uj/lidar/network/NetworkConnector.scala -> unchecked
+/home/sobota/IdeaProjects/RobotDataProcessor/src/main/scala/nkr/uj/lidar/network/NetworkConnector.scala -> ||
+/home/sobota/IdeaProjects/RobotDataProcessor/src/main/scala/nkr/uj/lidar/network/ReadData.scala -> &
+/home/sobota/IdeaProjects/RobotDataProcessor/src/main/scala/nkr/uj/lidar/network/ReadData.scala -> &&
+/home/sobota/IdeaProjects/RobotDataProcessor/src/main/scala/nkr/uj/lidar/network/ReadData.scala -> <<
+/home/sobota/IdeaProjects/RobotDataProcessor/src/main/scala/nkr/uj/lidar/network/ReadData.scala -> <init>
+/home/sobota/IdeaProjects/RobotDataProcessor/src/main/scala/nkr/uj/lidar/network/ReadData.scala -> ==
+/home/sobota/IdeaProjects/RobotDataProcessor/src/main/scala/nkr/uj/lidar/network/ReadData.scala -> >
+/home/sobota/IdeaProjects/RobotDataProcessor/src/main/scala/nkr/uj/lidar/network/ReadData.scala -> AbstractFunction4
+/home/sobota/IdeaProjects/RobotDataProcessor/src/main/scala/nkr/uj/lidar/network/ReadData.scala -> Boolean
+/home/sobota/IdeaProjects/RobotDataProcessor/src/main/scala/nkr/uj/lidar/network/ReadData.scala -> Byte
+/home/sobota/IdeaProjects/RobotDataProcessor/src/main/scala/nkr/uj/lidar/network/ReadData.scala -> Int
+/home/sobota/IdeaProjects/RobotDataProcessor/src/main/scala/nkr/uj/lidar/network/ReadData.scala -> List
+/home/sobota/IdeaProjects/RobotDataProcessor/src/main/scala/nkr/uj/lidar/network/ReadData.scala -> None
+/home/sobota/IdeaProjects/RobotDataProcessor/src/main/scala/nkr/uj/lidar/network/ReadData.scala -> Option
+/home/sobota/IdeaProjects/RobotDataProcessor/src/main/scala/nkr/uj/lidar/network/ReadData.scala -> Predef
+/home/sobota/IdeaProjects/RobotDataProcessor/src/main/scala/nkr/uj/lidar/network/ReadData.scala -> Product
+/home/sobota/IdeaProjects/RobotDataProcessor/src/main/scala/nkr/uj/lidar/network/ReadData.scala -> ReadData
+/home/sobota/IdeaProjects/RobotDataProcessor/src/main/scala/nkr/uj/lidar/network/ReadData.scala -> ScalaRunTime
+/home/sobota/IdeaProjects/RobotDataProcessor/src/main/scala/nkr/uj/lidar/network/ReadData.scala -> Serializable
+/home/sobota/IdeaProjects/RobotDataProcessor/src/main/scala/nkr/uj/lidar/network/ReadData.scala -> Statics
+/home/sobota/IdeaProjects/RobotDataProcessor/src/main/scala/nkr/uj/lidar/network/ReadData.scala -> String
+/home/sobota/IdeaProjects/RobotDataProcessor/src/main/scala/nkr/uj/lidar/network/ReadData.scala -> StringContext
+/home/sobota/IdeaProjects/RobotDataProcessor/src/main/scala/nkr/uj/lidar/network/ReadData.scala -> _toString
+/home/sobota/IdeaProjects/RobotDataProcessor/src/main/scala/nkr/uj/lidar/network/ReadData.scala -> apply
+/home/sobota/IdeaProjects/RobotDataProcessor/src/main/scala/nkr/uj/lidar/network/ReadData.scala -> asInstanceOf
+/home/sobota/IdeaProjects/RobotDataProcessor/src/main/scala/nkr/uj/lidar/network/ReadData.scala -> byte0
+/home/sobota/IdeaProjects/RobotDataProcessor/src/main/scala/nkr/uj/lidar/network/ReadData.scala -> byte1
+/home/sobota/IdeaProjects/RobotDataProcessor/src/main/scala/nkr/uj/lidar/network/ReadData.scala -> byte2
+/home/sobota/IdeaProjects/RobotDataProcessor/src/main/scala/nkr/uj/lidar/network/ReadData.scala -> byte3
+/home/sobota/IdeaProjects/RobotDataProcessor/src/main/scala/nkr/uj/lidar/network/ReadData.scala -> eq
+/home/sobota/IdeaProjects/RobotDataProcessor/src/main/scala/nkr/uj/lidar/network/ReadData.scala -> finalizeHash
+/home/sobota/IdeaProjects/RobotDataProcessor/src/main/scala/nkr/uj/lidar/network/ReadData.scala -> getDistance
+/home/sobota/IdeaProjects/RobotDataProcessor/src/main/scala/nkr/uj/lidar/network/ReadData.scala -> immutable
+/home/sobota/IdeaProjects/RobotDataProcessor/src/main/scala/nkr/uj/lidar/network/ReadData.scala -> intWrapper
+/home/sobota/IdeaProjects/RobotDataProcessor/src/main/scala/nkr/uj/lidar/network/ReadData.scala -> isInstanceOf
+/home/sobota/IdeaProjects/RobotDataProcessor/src/main/scala/nkr/uj/lidar/network/ReadData.scala -> isStrengthInferior
+/home/sobota/IdeaProjects/RobotDataProcessor/src/main/scala/nkr/uj/lidar/network/ReadData.scala -> lidar
+/home/sobota/IdeaProjects/RobotDataProcessor/src/main/scala/nkr/uj/lidar/network/ReadData.scala -> mix
+/home/sobota/IdeaProjects/RobotDataProcessor/src/main/scala/nkr/uj/lidar/network/ReadData.scala -> network
+/home/sobota/IdeaProjects/RobotDataProcessor/src/main/scala/nkr/uj/lidar/network/ReadData.scala -> nkr
+/home/sobota/IdeaProjects/RobotDataProcessor/src/main/scala/nkr/uj/lidar/network/ReadData.scala -> package
+/home/sobota/IdeaProjects/RobotDataProcessor/src/main/scala/nkr/uj/lidar/network/ReadData.scala -> runtime
+/home/sobota/IdeaProjects/RobotDataProcessor/src/main/scala/nkr/uj/lidar/network/ReadData.scala -> s
+/home/sobota/IdeaProjects/RobotDataProcessor/src/main/scala/nkr/uj/lidar/network/ReadData.scala -> scala
+/home/sobota/IdeaProjects/RobotDataProcessor/src/main/scala/nkr/uj/lidar/network/ReadData.scala -> toHexString
+/home/sobota/IdeaProjects/RobotDataProcessor/src/main/scala/nkr/uj/lidar/network/ReadData.scala -> toInt
+/home/sobota/IdeaProjects/RobotDataProcessor/src/main/scala/nkr/uj/lidar/network/ReadData.scala -> toList
+/home/sobota/IdeaProjects/RobotDataProcessor/src/main/scala/nkr/uj/lidar/network/ReadData.scala -> toString
+/home/sobota/IdeaProjects/RobotDataProcessor/src/main/scala/nkr/uj/lidar/network/ReadData.scala -> typedProductIterator
+/home/sobota/IdeaProjects/RobotDataProcessor/src/main/scala/nkr/uj/lidar/network/ReadData.scala -> uj
+/home/sobota/IdeaProjects/RobotDataProcessor/src/main/scala/nkr/uj/lidar/network/ReadData.scala -> |
+/home/sobota/IdeaProjects/RobotDataProcessor/src/main/scala/nkr/uj/lidar/network/ReadData.scala -> ||
+/home/sobota/IdeaProjects/RobotDataProcessor/src/main/scala/nkr/uj/lidar/network/ReadingNumber.scala -> <init>
+/home/sobota/IdeaProjects/RobotDataProcessor/src/main/scala/nkr/uj/lidar/network/ReadingNumber.scala -> Enumeration
+/home/sobota/IdeaProjects/RobotDataProcessor/src/main/scala/nkr/uj/lidar/network/ReadingNumber.scala -> READ_0
+/home/sobota/IdeaProjects/RobotDataProcessor/src/main/scala/nkr/uj/lidar/network/ReadingNumber.scala -> READ_1
+/home/sobota/IdeaProjects/RobotDataProcessor/src/main/scala/nkr/uj/lidar/network/ReadingNumber.scala -> READ_2
+/home/sobota/IdeaProjects/RobotDataProcessor/src/main/scala/nkr/uj/lidar/network/ReadingNumber.scala -> READ_3
+/home/sobota/IdeaProjects/RobotDataProcessor/src/main/scala/nkr/uj/lidar/network/ReadingNumber.scala -> ReadingNumber
+/home/sobota/IdeaProjects/RobotDataProcessor/src/main/scala/nkr/uj/lidar/network/ReadingNumber.scala -> Value
+/home/sobota/IdeaProjects/RobotDataProcessor/src/main/scala/nkr/uj/lidar/network/ReadingNumber.scala -> lidar
+/home/sobota/IdeaProjects/RobotDataProcessor/src/main/scala/nkr/uj/lidar/network/ReadingNumber.scala -> network
+/home/sobota/IdeaProjects/RobotDataProcessor/src/main/scala/nkr/uj/lidar/network/ReadingNumber.scala -> nkr
+/home/sobota/IdeaProjects/RobotDataProcessor/src/main/scala/nkr/uj/lidar/network/ReadingNumber.scala -> scala
+/home/sobota/IdeaProjects/RobotDataProcessor/src/main/scala/nkr/uj/lidar/network/ReadingNumber.scala -> uj
+/home/sobota/IdeaProjects/RobotDataProcessor/src/main/scala/nkr/uj/lidar/network/package.scala -> <init>
+/home/sobota/IdeaProjects/RobotDataProcessor/src/main/scala/nkr/uj/lidar/network/package.scala -> AnyRef
+/home/sobota/IdeaProjects/RobotDataProcessor/src/main/scala/nkr/uj/lidar/network/package.scala -> Array
+/home/sobota/IdeaProjects/RobotDataProcessor/src/main/scala/nkr/uj/lidar/network/package.scala -> Byte
+/home/sobota/IdeaProjects/RobotDataProcessor/src/main/scala/nkr/uj/lidar/network/package.scala -> Int
+/home/sobota/IdeaProjects/RobotDataProcessor/src/main/scala/nkr/uj/lidar/network/package.scala -> PACKET_SIZE
+/home/sobota/IdeaProjects/RobotDataProcessor/src/main/scala/nkr/uj/lidar/network/package.scala -> lidar
+/home/sobota/IdeaProjects/RobotDataProcessor/src/main/scala/nkr/uj/lidar/network/package.scala -> network
+/home/sobota/IdeaProjects/RobotDataProcessor/src/main/scala/nkr/uj/lidar/network/package.scala -> nkr
+/home/sobota/IdeaProjects/RobotDataProcessor/src/main/scala/nkr/uj/lidar/network/package.scala -> package
+/home/sobota/IdeaProjects/RobotDataProcessor/src/main/scala/nkr/uj/lidar/network/package.scala -> scala
+/home/sobota/IdeaProjects/RobotDataProcessor/src/main/scala/nkr/uj/lidar/network/package.scala -> uj
+product stamps:
+20 items
+/home/sobota/IdeaProjects/RobotDataProcessor/target/scala-2.11/classes/nkr/uj/lidar/network/LidarPacket$.class -> lastModified(1451169047000)
+/home/sobota/IdeaProjects/RobotDataProcessor/target/scala-2.11/classes/nkr/uj/lidar/network/LidarPacket.class -> lastModified(1451169047000)
+/home/sobota/IdeaProjects/RobotDataProcessor/target/scala-2.11/classes/nkr/uj/lidar/network/Main$$anon$1.class -> lastModified(1451251924000)
+/home/sobota/IdeaProjects/RobotDataProcessor/target/scala-2.11/classes/nkr/uj/lidar/network/Main$$anonfun$1.class -> lastModified(1451251924000)
+/home/sobota/IdeaProjects/RobotDataProcessor/target/scala-2.11/classes/nkr/uj/lidar/network/Main$$anonfun$2$$anonfun$apply$1.class -> lastModified(1451251924000)
+/home/sobota/IdeaProjects/RobotDataProcessor/target/scala-2.11/classes/nkr/uj/lidar/network/Main$$anonfun$2$$anonfun$apply$2.class -> lastModified(1451251924000)
+/home/sobota/IdeaProjects/RobotDataProcessor/target/scala-2.11/classes/nkr/uj/lidar/network/Main$$anonfun$2.class -> lastModified(1451251924000)
+/home/sobota/IdeaProjects/RobotDataProcessor/target/scala-2.11/classes/nkr/uj/lidar/network/Main$.class -> lastModified(1451251924000)
+/home/sobota/IdeaProjects/RobotDataProcessor/target/scala-2.11/classes/nkr/uj/lidar/network/Main$delayedInit$body.class -> lastModified(1451251924000)
+/home/sobota/IdeaProjects/RobotDataProcessor/target/scala-2.11/classes/nkr/uj/lidar/network/Main.class -> lastModified(1451251924000)
+/home/sobota/IdeaProjects/RobotDataProcessor/target/scala-2.11/classes/nkr/uj/lidar/network/NetworkConnector$$anonfun$1.class -> lastModified(1451169047000)
+/home/sobota/IdeaProjects/RobotDataProcessor/target/scala-2.11/classes/nkr/uj/lidar/network/NetworkConnector$$anonfun$apply$1.class -> lastModified(1451169047000)
+/home/sobota/IdeaProjects/RobotDataProcessor/target/scala-2.11/classes/nkr/uj/lidar/network/NetworkConnector$.class -> lastModified(1451169047000)
+/home/sobota/IdeaProjects/RobotDataProcessor/target/scala-2.11/classes/nkr/uj/lidar/network/NetworkConnector.class -> lastModified(1451169047000)
+/home/sobota/IdeaProjects/RobotDataProcessor/target/scala-2.11/classes/nkr/uj/lidar/network/ReadData$.class -> lastModified(1451169047000)
+/home/sobota/IdeaProjects/RobotDataProcessor/target/scala-2.11/classes/nkr/uj/lidar/network/ReadData.class -> lastModified(1451169047000)
+/home/sobota/IdeaProjects/RobotDataProcessor/target/scala-2.11/classes/nkr/uj/lidar/network/ReadingNumber$.class -> lastModified(1451169047000)
+/home/sobota/IdeaProjects/RobotDataProcessor/target/scala-2.11/classes/nkr/uj/lidar/network/ReadingNumber.class -> lastModified(1451169047000)
+/home/sobota/IdeaProjects/RobotDataProcessor/target/scala-2.11/classes/nkr/uj/lidar/network/package$.class -> lastModified(1451169047000)
+/home/sobota/IdeaProjects/RobotDataProcessor/target/scala-2.11/classes/nkr/uj/lidar/network/package.class -> lastModified(1451169047000)
+source stamps:
+6 items
+/home/sobota/IdeaProjects/RobotDataProcessor/src/main/scala/nkr/uj/lidar/network/LidarPacket.scala -> hash(9bf527372cab2af729319aa716751fc2a400f581)
+/home/sobota/IdeaProjects/RobotDataProcessor/src/main/scala/nkr/uj/lidar/network/Main.scala -> hash(e46067f409d7cd281bd0cb8d5ecf064bec41c23e)
+/home/sobota/IdeaProjects/RobotDataProcessor/src/main/scala/nkr/uj/lidar/network/NetworkConnector.scala -> hash(6b54aed8f770cf8d31cd570b70ec43198ad2c93a)
+/home/sobota/IdeaProjects/RobotDataProcessor/src/main/scala/nkr/uj/lidar/network/ReadData.scala -> hash(0cadd717ca28bc171785039d163046ff88846329)
+/home/sobota/IdeaProjects/RobotDataProcessor/src/main/scala/nkr/uj/lidar/network/ReadingNumber.scala -> hash(6385bd8032e08e217dc25ab7eea7646b99b261d5)
+/home/sobota/IdeaProjects/RobotDataProcessor/src/main/scala/nkr/uj/lidar/network/package.scala -> hash(3290f541fa0bdc48117c14d4d656ebb9bb97056e)
+binary stamps:
+3 items
+/home/sobota/.ivy2/cache/org.scala-lang/scala-library/jars/scala-library-2.11.7.jar -> lastModified(1435004218000)
+/usr/lib/jvm/java-8-jdk/jre/lib/ext/jfxrt.jar -> lastModified(1444161619000)
+/usr/lib/jvm/java-8-jdk/jre/lib/rt.jar -> lastModified(1444178208000)
+class names:
+3 items
+/home/sobota/.ivy2/cache/org.scala-lang/scala-library/jars/scala-library-2.11.7.jar -> scala.App
+/usr/lib/jvm/java-8-jdk/jre/lib/ext/jfxrt.jar -> javafx.stage.Stage
+/usr/lib/jvm/java-8-jdk/jre/lib/rt.jar -> java.lang.Object
+internal apis:
+6 items
+/home/sobota/IdeaProjects/RobotDataProcessor/src/main/scala/nkr/uj/lidar/network/LidarPacket.scala -> 
+rO0ABXNyABB4c2J0aS5hcGkuU291cmNlFlpwRASfbtoCAAZJAAdhcGlIYXNoWgAIaGFzTWFjcm9MABhfaW50ZXJuYWxPbmx5X25hbWVIYXNoZXN0ACRMeHNidGkvYXBpL19pbnRlcm5hbE9ubHlfTmFtZUhhc2hlcztMAANhcGl0ABVMeHNidGkvYXBpL1NvdXJjZUFQSTtMAAtjb21waWxhdGlvbnQAF0x4c2J0aS9hcGkvQ29tcGlsYXRpb247WwAEaGFzaHQAAltCeHCjp0D6AHNyACJ4c2J0aS5hcGkuX2ludGVybmFsT25seV9OYW1lSGFzaGVzVNq+mfrU7EwCAAJbAA9pbXBsaWNpdE1lbWJlcnN0ACNbTHhzYnRpL2FwaS9faW50ZXJuYWxPbmx5X05hbWVIYXNoO1sADnJlZ3VsYXJNZW1iZXJzcQB+AAd4cHVyACNbTHhzYnRpLmFwaS5faW50ZXJuYWxPbmx5X05hbWVIYXNoO0lagLbdlov0AgAAeHAAAAAAdXEAfgAJAAAAKnNyACB4c2J0aS5hcGkuX2ludGVybmFsT25seV9OYW1lSGFzaFsO9SJ2OFfPAgACSQAEaGFzaEwABG5hbWV0ABJMamF2YS9sYW5nL1N0cmluZzt4cPoRzzR0AAt0b0hleFN0cmluZ3NxAH4ADHBguAp0AAZub3RpZnlzcQB+AAz3wwtodAAEd2FpdHNxAH4ADFvAREZ0AA5jb3B5JGRlZmF1bHQkMnNxAH4ADI2otb90AA0kYXNJbnN0YW5jZU9mc3EAfgAML6i2CnQABWRhdGExc3EAfgAM66RVE3QADmNvcHkkZGVmYXVsdCQ1c3EAfgAMyZDgAHQAD2dldEF4aXNEaXN0YW5jZXNxAH4ADDDt6et0AAVkYXRhM3NxAH4ADBAB6QZ0AAxwcm9kdWN0QXJpdHlzcQB+AAztxI42dAAGZXF1YWxzc3EAfgAMWMTXAHQADGFzSW5zdGFuY2VPZnNxAH4ADHbbjlZ0AARkYXRhc3EAfgAMd+GUrHQADHN5bmNocm9uaXplZHNxAH4ADNncwGd0AA0kaXNJbnN0YW5jZU9mc3EAfgAMFplHcHQACGNhbkVxdWFsc3EAfgAMNG6pf3QADmNvcHkkZGVmYXVsdCQ0c3EAfgAMvh2wnHQADXByb2R1Y3RQcmVmaXhzcQB+AAwJ29BxdAAFZGF0YTJzcQB+AAxgzGeGdAAJbm90aWZ5QWxsc3EAfgAM8m9YJ3QADGlzSW5zdGFuY2VPZnNxAH4ADIFLBlJ0AAY8aW5pdD5zcQB+AAzeKY+ndAACPT1zcQB+AAzAmIvCdAAFY2xvbmVzcQB+AAxrY0madAAOY29weSRkZWZhdWx0JDNzcQB+AAwbRqprdAAEY29weXNxAH4ADMwI7Z50AAh0b1N0cmluZ3NxAH4ADAU74ol0AAtMaWRhclBhY2tldHNxAH4ADI0Rwhl0AAIhPXNxAH4ADCXJjL90AAhnZXRDbGFzc3NxAH4ADCk7Tgl0AA5jb3B5JGRlZmF1bHQkMXNxAH4ADKAlh990AA5jb3B5JGRlZmF1bHQkNnNxAH4ADJ8wphF0AAJuZXNxAH4ADFikcud0AAJlcXNxAH4ADFjBgoB0AA9wcm9kdWN0SXRlcmF0b3JzcQB+AAy2y0QEdAACIyNzcQB+AAx9IVLIdAAFc3BlZWRzcQB+AAxoNpPcdAAFZGF0YTBzcQB+AAw3vNTEdAAIZmluYWxpemVzcQB+AAxidfnYdAAFaW5kZXhzcQB+AAzDm3hAdAAOcHJvZHVjdEVsZW1lbnRzcQB+AAyQksaEdAAIaGFzaENvZGVzcgATeHNidGkuYXBpLlNvdXJjZUFQSblep/kpIzikAgACWwALZGVmaW5pdGlvbnN0ABdbTHhzYnRpL2FwaS9EZWZpbml0aW9uO1sACHBhY2thZ2VzdAAUW0x4c2J0aS9hcGkvUGFja2FnZTt4cHVyABdbTHhzYnRpLmFwaS5EZWZpbml0aW9uO4jJXOe0414OAgAAeHAAAAABc3IAE3hzYnRpLmFwaS5DbGFzc0xpa2WDNByh37CXbAIABEwADmRlZmluaXRpb25UeXBldAAaTHhzYnRpL2FwaS9EZWZpbml0aW9uVHlwZTtbABBzYXZlZEFubm90YXRpb25zdAATW0xqYXZhL2xhbmcvU3RyaW5nO0wACHNlbGZUeXBldAAQTHhzYnRpL2FwaS9MYXp5O0wACXN0cnVjdHVyZXEAfgBreHIAIXhzYnRpLmFwaS5QYXJhbWV0ZXJpemVkRGVmaW5pdGlvbvkRbrHVUDziAgABWwAOdHlwZVBhcmFtZXRlcnN0ABpbTHhzYnRpL2FwaS9UeXBlUGFyYW1ldGVyO3hyABR4c2J0aS5hcGkuRGVmaW5pdGlvbocqG+hxQuNGAgAETAAGYWNjZXNzdAASTHhzYnRpL2FwaS9BY2Nlc3M7WwALYW5ub3RhdGlvbnN0ABdbTHhzYnRpL2FwaS9Bbm5vdGF0aW9uO0wACW1vZGlmaWVyc3QAFUx4c2J0aS9hcGkvTW9kaWZpZXJzO0wABG5hbWVxAH4ADXhwc3IAEHhzYnRpLmFwaS5QdWJsaWO6WD2ubC1gQgIAAHhyABB4c2J0aS5hcGkuQWNjZXNz3WKa+B1jMUgCAAB4cHVyABdbTHhzYnRpLmFwaS5Bbm5vdGF0aW9uO+uX6xkQ9o1IAgAAeHAAAAAAc3IAE3hzYnRpLmFwaS5Nb2RpZmllcnPHERMhaZzcJAIAAUIABWZsYWdzeHAAdAAgbmtyLnVqLmxpZGFyLm5ldHdvcmsuTGlkYXJQYWNrZXR1cgAaW0x4c2J0aS5hcGkuVHlwZVBhcmFtZXRlcjvZbSYPKJ3ytgIAAHhwAAAAAH5yABh4c2J0aS5hcGkuRGVmaW5pdGlvblR5cGUAAAAAAAAAABIAAHhyAA5qYXZhLmxhbmcuRW51bQAAAAAAAAAAEgAAeHB0AAhDbGFzc0RlZnVyABNbTGphdmEubGFuZy5TdHJpbmc7rdJW5+kde0cCAAB4cAAAAABzcgATeHNidGkuU2FmZUxhenkkSW1wbFACLpOXl0A/AgADWgAIYml0bWFwJDBMAAJfdHQAEkxqYXZhL2xhbmcvT2JqZWN0O0wABGV2YWx0ABFMc2NhbGEvRnVuY3Rpb24wO3hyABZ4c2J0aS5hcGkuQWJzdHJhY3RMYXp503e1AV+756ACAAB4cABwc3IAIHhzYnRpLlNhZmVMYXp5JCRhbm9uZnVuJHN0cmljdCQxAAAAAAAAAAACAAFMAAd2YWx1ZSQxcQB+AIR4cHNyABN4c2J0aS5hcGkuRW1wdHlUeXBlvP2eRkk7iSQCAAB4cgAUeHNidGkuYXBpLlNpbXBsZVR5cGVyeGKIISO/QAIAAHhyAA54c2J0aS5hcGkuVHlwZT9q2SEWSarKAgAAeHBzcQB+AIMAcHNxAH4AiHNyABN4c2J0aS5hcGkuU3RydWN0dXJlqar5gJNv2AACAANMAAhkZWNsYXJlZHEAfgBrTAAJaW5oZXJpdGVkcQB+AGtMAAdwYXJlbnRzcQB+AGt4cQB+AIxzcQB+AIMAcHNxAH4AiHVxAH4AZgAAAABzcQB+AIMAcHNxAH4AiHVxAH4AZgAAAABzcQB+AIMAcHNxAH4AiHVyABFbTHhzYnRpLmFwaS5UeXBlO3T/pVp7+elBAgAAeHAAAAAGc3IAFHhzYnRpLmFwaS5Qcm9qZWN0aW9u89KNVOlFpC0CAAJMAAJpZHEAfgANTAAGcHJlZml4dAAWTHhzYnRpL2FwaS9TaW1wbGVUeXBlO3hxAH4Ai3QADFNlcmlhbGl6YWJsZXNyABN4c2J0aS5hcGkuU2luZ2xldG9u/Kdf+M9W5EYCAAFMAARwYXRodAAQTHhzYnRpL2FwaS9QYXRoO3hxAH4Ai3NyAA54c2J0aS5hcGkuUGF0aJs9XAjOpSeEAgABWwAKY29tcG9uZW50c3QAGltMeHNidGkvYXBpL1BhdGhDb21wb25lbnQ7eHB1cgAaW0x4c2J0aS5hcGkuUGF0aENvbXBvbmVudDtD2gl0LWcWdAIAAHhwAAAAAnNyAAx4c2J0aS5hcGkuSWSYMmyLN1PEQAIAAUwAAmlkcQB+AA14cgAXeHNidGkuYXBpLlBhdGhDb21wb25lbnRfmiJbLoafvAIAAHhwdAAFc2NhbGFzcgAOeHNidGkuYXBpLlRoaXPbCe2mzFpAXAIAAHhxAH4AqXNxAH4AnHEAfgCfc3EAfgCgc3EAfgCjdXEAfgCmAAAAA3NxAH4AqHQABGphdmFzcQB+AKh0AAJpb3EAfgCtc3EAfgCcdAAHUHJvZHVjdHEAfgCic3EAfgCcdAAGRXF1YWxzcQB+AKJzcQB+AJx0AAZPYmplY3RzcQB+AKBzcQB+AKN1cQB+AKYAAAADc3EAfgCocQB+ALNzcQB+AKh0AARsYW5ncQB+AK1zcQB+AJx0AANBbnlxAH4AonVyABRbTHhzYnRpLmFwaS5QYWNrYWdlO1sTGTdwpyehAgAAeHAAAAAEc3IAEXhzYnRpLmFwaS5QYWNrYWdlflmP9q7OOVgCAAFMAARuYW1lcQB+AA14cHQABm5rci51anNxAH4AxnQAA25rcnNxAH4AxnQADG5rci51ai5saWRhcnNxAH4AxnQAFG5rci51ai5saWRhci5uZXR3b3Jrc3IAFXhzYnRpLmFwaS5Db21waWxhdGlvbu364MNq6KBCAgACSgAJc3RhcnRUaW1lWwAHb3V0cHV0c3QAGltMeHNidGkvYXBpL091dHB1dFNldHRpbmc7eHAAAAFR4GpAWHVyABpbTHhzYnRpLmFwaS5PdXRwdXRTZXR0aW5nO39qwvOnh6VCAgAAeHAAAAABc3IAF3hzYnRpLmFwaS5PdXRwdXRTZXR0aW5netmaR3T7HXsCAAJMAA9vdXRwdXREaXJlY3RvcnlxAH4ADUwAD3NvdXJjZURpcmVjdG9yeXEAfgANeHB0AEYvaG9tZS9zb2JvdGEvSWRlYVByb2plY3RzL1JvYm90RGF0YVByb2Nlc3Nvci90YXJnZXQvc2NhbGEtMi4xMS9jbGFzc2VzdAABL3VyAAJbQqzzF/gGCFTgAgAAeHAAAAAUm/UnNyyrKvcpMZqnFnUfwqQA9YE=
+/home/sobota/IdeaProjects/RobotDataProcessor/src/main/scala/nkr/uj/lidar/network/Main.scala -> 
+rO0ABXNyABB4c2J0aS5hcGkuU291cmNlFlpwRASfbtoCAAZJAAdhcGlIYXNoWgAIaGFzTWFjcm9MABhfaW50ZXJuYWxPbmx5X25hbWVIYXNoZXN0ACRMeHNidGkvYXBpL19pbnRlcm5hbE9ubHlfTmFtZUhhc2hlcztMAANhcGl0ABVMeHNidGkvYXBpL1NvdXJjZUFQSTtMAAtjb21waWxhdGlvbnQAF0x4c2J0aS9hcGkvQ29tcGlsYXRpb247WwAEaGFzaHQAAltCeHDzKrUuAHNyACJ4c2J0aS5hcGkuX2ludGVybmFsT25seV9OYW1lSGFzaGVzVNq+mfrU7EwCAAJbAA9pbXBsaWNpdE1lbWJlcnN0ACNbTHhzYnRpL2FwaS9faW50ZXJuYWxPbmx5X05hbWVIYXNoO1sADnJlZ3VsYXJNZW1iZXJzcQB+AAd4cHVyACNbTHhzYnRpLmFwaS5faW50ZXJuYWxPbmx5X05hbWVIYXNoO0lagLbdlov0AgAAeHAAAAAAdXEAfgAJAAAAGnNyACB4c2J0aS5hcGkuX2ludGVybmFsT25seV9OYW1lSGFzaFsO9SJ2OFfPAgACSQAEaGFzaEwABG5hbWV0ABJMamF2YS9sYW5nL1N0cmluZzt4cMnodVR0AAZub3RpZnlzcQB+AAw7sCH+dAAFc3RhZ2VzcQB+AAygALrNdAAEd2FpdHNxAH4ADGcJvPp0AA0kYXNJbnN0YW5jZU9mc3EAfgAMTHt4aHQABmVxdWFsc3NxAH4ADKwjhb10AAxhc0luc3RhbmNlT2ZzcQB+AAxzbN/TdAAOZXhlY3V0aW9uU3RhcnRzcQB+AAy24rtKdAAMc3luY2hyb25pemVkc3EAfgAMGySY2nQADSRpc0luc3RhbmNlT2ZzcQB+AAysiuwVdAAEbWFpbnNxAH4ADOuAFK10AAlub3RpZnlBbGxzcQB+AAz/lRN+dAAMaXNJbnN0YW5jZU9mc3EAfgAMGkXetXQAAj09c3EAfgAMwN4CfHQABWNsb25lc3EAfgAMF2WrUHQACWNvbm5lY3RvcnNxAH4ADCqSsE90AARNYWluc3EAfgAMw/6PUHQACHRvU3RyaW5nc3EAfgAM8OydJXQABGFyZ3NzcQB+AAzstkbsdAACIT1zcQB+AAwsPJaedAAIZ2V0Q2xhc3NzcQB+AAywoF7gdAACbmVzcQB+AAxmPjSzdAACZXFzcQB+AAwS4BgydAALZGVsYXllZEluaXRzcQB+AAy0exHZdAACIyNzcQB+AAzLEXVGdAAIZmluYWxpemVzcQB+AAwozfjHdAAIaGFzaENvZGVzcgATeHNidGkuYXBpLlNvdXJjZUFQSblep/kpIzikAgACWwALZGVmaW5pdGlvbnN0ABdbTHhzYnRpL2FwaS9EZWZpbml0aW9uO1sACHBhY2thZ2VzdAAUW0x4c2J0aS9hcGkvUGFja2FnZTt4cHVyABdbTHhzYnRpLmFwaS5EZWZpbml0aW9uO4jJXOe0414OAgAAeHAAAAABc3IAE3hzYnRpLmFwaS5DbGFzc0xpa2WDNByh37CXbAIABEwADmRlZmluaXRpb25UeXBldAAaTHhzYnRpL2FwaS9EZWZpbml0aW9uVHlwZTtbABBzYXZlZEFubm90YXRpb25zdAATW0xqYXZhL2xhbmcvU3RyaW5nO0wACHNlbGZUeXBldAAQTHhzYnRpL2FwaS9MYXp5O0wACXN0cnVjdHVyZXEAfgBLeHIAIXhzYnRpLmFwaS5QYXJhbWV0ZXJpemVkRGVmaW5pdGlvbvkRbrHVUDziAgABWwAOdHlwZVBhcmFtZXRlcnN0ABpbTHhzYnRpL2FwaS9UeXBlUGFyYW1ldGVyO3hyABR4c2J0aS5hcGkuRGVmaW5pdGlvbocqG+hxQuNGAgAETAAGYWNjZXNzdAASTHhzYnRpL2FwaS9BY2Nlc3M7WwALYW5ub3RhdGlvbnN0ABdbTHhzYnRpL2FwaS9Bbm5vdGF0aW9uO0wACW1vZGlmaWVyc3QAFUx4c2J0aS9hcGkvTW9kaWZpZXJzO0wABG5hbWVxAH4ADXhwc3IAEHhzYnRpLmFwaS5QdWJsaWO6WD2ubC1gQgIAAHhyABB4c2J0aS5hcGkuQWNjZXNz3WKa+B1jMUgCAAB4cHVyABdbTHhzYnRpLmFwaS5Bbm5vdGF0aW9uO+uX6xkQ9o1IAgAAeHAAAAAAc3IAE3hzYnRpLmFwaS5Nb2RpZmllcnPHERMhaZzcJAIAAUIABWZsYWdzeHAAdAAZbmtyLnVqLmxpZGFyLm5ldHdvcmsuTWFpbnVyABpbTHhzYnRpLmFwaS5UeXBlUGFyYW1ldGVyO9ltJg8onfK2AgAAeHAAAAAAfnIAGHhzYnRpLmFwaS5EZWZpbml0aW9uVHlwZQAAAAAAAAAAEgAAeHIADmphdmEubGFuZy5FbnVtAAAAAAAAAAASAAB4cHQABk1vZHVsZXVyABNbTGphdmEubGFuZy5TdHJpbmc7rdJW5+kde0cCAAB4cAAAAAJ0ABBzY2FsYS5kZXByZWNhdGVkdAAac2NhbGEuZGVwcmVjYXRlZE92ZXJyaWRpbmdzcgATeHNidGkuU2FmZUxhenkkSW1wbFACLpOXl0A/AgADWgAIYml0bWFwJDBMAAJfdHQAEkxqYXZhL2xhbmcvT2JqZWN0O0wABGV2YWx0ABFMc2NhbGEvRnVuY3Rpb24wO3hyABZ4c2J0aS5hcGkuQWJzdHJhY3RMYXp503e1AV+756ACAAB4cABwc3IAIHhzYnRpLlNhZmVMYXp5JCRhbm9uZnVuJHN0cmljdCQxAAAAAAAAAAACAAFMAAd2YWx1ZSQxcQB+AGZ4cHNyABN4c2J0aS5hcGkuRW1wdHlUeXBlvP2eRkk7iSQCAAB4cgAUeHNidGkuYXBpLlNpbXBsZVR5cGVyeGKIISO/QAIAAHhyAA54c2J0aS5hcGkuVHlwZT9q2SEWSarKAgAAeHBzcQB+AGUAcHNxAH4AanNyABN4c2J0aS5hcGkuU3RydWN0dXJlqar5gJNv2AACAANMAAhkZWNsYXJlZHEAfgBLTAAJaW5oZXJpdGVkcQB+AEtMAAdwYXJlbnRzcQB+AEt4cQB+AG5zcQB+AGUAcHNxAH4AanVxAH4ARgAAAABzcQB+AGUAcHNxAH4AanVxAH4ARgAAAAFzcgANeHNidGkuYXBpLkRlZlK+n+J8tDZpAgACTAAKcmV0dXJuVHlwZXQAEEx4c2J0aS9hcGkvVHlwZTtbAA92YWx1ZVBhcmFtZXRlcnN0ABpbTHhzYnRpL2FwaS9QYXJhbWV0ZXJMaXN0O3hxAH4ATHEAfgBVdXEAfgBWAAAAAXNyABR4c2J0aS5hcGkuQW5ub3RhdGlvbt4OgaL2XAqyAgACWwAJYXJndW1lbnRzdAAfW0x4c2J0aS9hcGkvQW5ub3RhdGlvbkFyZ3VtZW50O0wABGJhc2VxAH4Ae3hwdXIAH1tMeHNidGkuYXBpLkFubm90YXRpb25Bcmd1bWVudDtRnaaPOCUPeAIAAHhwAAAAAXNyABx4c2J0aS5hcGkuQW5ub3RhdGlvbkFyZ3VtZW501kWx2AMbF3wCAAJMAARuYW1lcQB+AA1MAAV2YWx1ZXEAfgANeHB0AAB0ACooIm1haW4gc2hvdWxkIG5vdCBiZSBvdmVycmlkZGVuIiwiMi4xMS4wIilzcgAUeHNidGkuYXBpLlByb2plY3Rpb27z0o1U6UWkLQIAAkwAAmlkcQB+AA1MAAZwcmVmaXh0ABZMeHNidGkvYXBpL1NpbXBsZVR5cGU7eHEAfgBtdAAUZGVwcmVjYXRlZE92ZXJyaWRpbmdzcgATeHNidGkuYXBpLlNpbmdsZXRvbvynX/jPVuRGAgABTAAEcGF0aHQAEEx4c2J0aS9hcGkvUGF0aDt4cQB+AG1zcgAOeHNidGkuYXBpLlBhdGibPVwIzqUnhAIAAVsACmNvbXBvbmVudHN0ABpbTHhzYnRpL2FwaS9QYXRoQ29tcG9uZW50O3hwdXIAGltMeHNidGkuYXBpLlBhdGhDb21wb25lbnQ7Q9oJdC1nFnQCAAB4cAAAAAJzcgAMeHNidGkuYXBpLklkmDJsizdTxEACAAFMAAJpZHEAfgANeHIAF3hzYnRpLmFwaS5QYXRoQ29tcG9uZW50X5oiWy6Gn7wCAAB4cHQABXNjYWxhc3IADnhzYnRpLmFwaS5UaGlz2wntpsxaQFwCAAB4cQB+AJVzcQB+AFgAcQB+ACF1cQB+AFsAAAAAc3EAfgCIdAAEVW5pdHEAfgCOdXIAGltMeHNidGkuYXBpLlBhcmFtZXRlckxpc3Q79dM6HfKzcO4CAAB4cAAAAAFzcgAXeHNidGkuYXBpLlBhcmFtZXRlckxpc3TWxbwcZEl04wIAAloACmlzSW1wbGljaXRbAApwYXJhbWV0ZXJzdAAcW0x4c2J0aS9hcGkvTWV0aG9kUGFyYW1ldGVyO3hwAHVyABxbTHhzYnRpLmFwaS5NZXRob2RQYXJhbWV0ZXI7z7jFXaXdtW0CAAB4cAAAAAFzcgAZeHNidGkuYXBpLk1ldGhvZFBhcmFtZXRlch9FrhfTSbDqAgAEWgAKaGFzRGVmYXVsdEwACG1vZGlmaWVydAAdTHhzYnRpL2FwaS9QYXJhbWV0ZXJNb2RpZmllcjtMAARuYW1lcQB+AA1MAAN0cGVxAH4Ae3hwAH5yABt4c2J0aS5hcGkuUGFyYW1ldGVyTW9kaWZpZXIAAAAAAAAAABIAAHhxAH4AXnQABVBsYWlucQB+ADFzcgAXeHNidGkuYXBpLlBhcmFtZXRlcml6ZWQWbO5pA8m7fwIAAkwACGJhc2VUeXBlcQB+AIlbAA10eXBlQXJndW1lbnRzdAARW0x4c2J0aS9hcGkvVHlwZTt4cQB+AG1zcQB+AIh0AAVBcnJheXEAfgCOdXIAEVtMeHNidGkuYXBpLlR5cGU7dP+lWnv56UECAAB4cAAAAAFzcQB+AIh0AAZTdHJpbmdzcQB+AIxzcQB+AI91cQB+AJIAAAADc3EAfgCUdAAEamF2YXNxAH4AlHQABGxhbmdxAH4AmXNxAH4AZQBwc3EAfgBqdXEAfgCwAAAABHNxAH4AiHQAA0FwcHEAfgCOc3EAfgCIdAALRGVsYXllZEluaXRxAH4AjnNxAH4AiHQABk9iamVjdHEAfgC0c3EAfgCIdAADQW55cQB+AI51cgAUW0x4c2J0aS5hcGkuUGFja2FnZTtbExk3cKcnoQIAAHhwAAAABHNyABF4c2J0aS5hcGkuUGFja2FnZX5Zj/auzjlYAgABTAAEbmFtZXEAfgANeHB0AAZua3IudWpzcQB+AMh0AANua3JzcQB+AMh0AAxua3IudWoubGlkYXJzcQB+AMh0ABRua3IudWoubGlkYXIubmV0d29ya3NyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABUeVa63h1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5cQB+AA1MAA9zb3VyY2VEaXJlY3RvcnlxAH4ADXhwdABGL2hvbWUvc29ib3RhL0lkZWFQcm9qZWN0cy9Sb2JvdERhdGFQcm9jZXNzb3IvdGFyZ2V0L3NjYWxhLTIuMTEvY2xhc3Nlc3QAAS91cgACW0Ks8xf4BghU4AIAAHhwAAAAFORgZ/QJ180oG9DLjV7PBkvsQcI+
+/home/sobota/IdeaProjects/RobotDataProcessor/src/main/scala/nkr/uj/lidar/network/NetworkConnector.scala -> 
+rO0ABXNyABB4c2J0aS5hcGkuU291cmNlFlpwRASfbtoCAAZJAAdhcGlIYXNoWgAIaGFzTWFjcm9MABhfaW50ZXJuYWxPbmx5X25hbWVIYXNoZXN0ACRMeHNidGkvYXBpL19pbnRlcm5hbE9ubHlfTmFtZUhhc2hlcztMAANhcGl0ABVMeHNidGkvYXBpL1NvdXJjZUFQSTtMAAtjb21waWxhdGlvbnQAF0x4c2J0aS9hcGkvQ29tcGlsYXRpb247WwAEaGFzaHQAAltCeHDi8aPxAHNyACJ4c2J0aS5hcGkuX2ludGVybmFsT25seV9OYW1lSGFzaGVzVNq+mfrU7EwCAAJbAA9pbXBsaWNpdE1lbWJlcnN0ACNbTHhzYnRpL2FwaS9faW50ZXJuYWxPbmx5X05hbWVIYXNoO1sADnJlZ3VsYXJNZW1iZXJzcQB+AAd4cHVyACNbTHhzYnRpLmFwaS5faW50ZXJuYWxPbmx5X05hbWVIYXNoO0lagLbdlov0AgAAeHAAAAAAdXEAfgAJAAAAI3NyACB4c2J0aS5hcGkuX2ludGVybmFsT25seV9OYW1lSGFzaFsO9SJ2OFfPAgACSQAEaGFzaEwABG5hbWV0ABJMamF2YS9sYW5nL1N0cmluZzt4cCnCM1d0AAZub3RpZnlzcQB+AAyKF4UNdAAHc3VjY2Vzc3NxAH4ADGZZMf10AAR3YWl0c3EAfgAMtjrAXnQABnNvY2tldHNxAH4ADG91dfN0AA5jb3B5JGRlZmF1bHQkMnNxAH4ADMXC5650AA0kYXNJbnN0YW5jZU9mc3EAfgAMjpCcbXQADHByb2R1Y3RBcml0eXNxAH4ADAXTk3R0AAZlcXVhbHNzcQB+AAwEcMVjdAAMYXNJbnN0YW5jZU9mc3EAfgAMgf3Y73QADHN5bmNocm9uaXplZHNxAH4ADPUfRQh0AA0kaXNJbnN0YW5jZU9mc3EAfgAMiphW93QACGNhbkVxdWFsc3EAfgAMsVJyrHQABmZpbmlzaHNxAH4ADBgO8Lt0AA1wcm9kdWN0UHJlZml4c3EAfgAMeOpa7HQACW5vdGlmeUFsbHNxAH4ADA/IdJl0AAxpc0luc3RhbmNlT2ZzcQB+AAymUqrFdAAGPGluaXQ+c3EAfgAMHnECR3QABHBvcnRzcQB+AAxgU7hldAAFYXBwbHlzcQB+AAxlzW96dAACPT1zcQB+AAztyXVUdAAFY2xvbmVzcQB+AAxMnL2bdAAQTmV0d29ya0Nvbm5lY3RvcnNxAH4ADASfOjZ0AARjb3B5c3EAfgAMGWo2nHQAD2FwcGx5JGRlZmF1bHQkMXNxAH4ADP1RZdl0AAh0b1N0cmluZ3NxAH4ADMJWOap0AAIhPXNxAH4ADDGmhTl0AAhnZXRDbGFzc3NxAH4ADJ7m6dR0AA5jb3B5JGRlZmF1bHQkMXNxAH4ADMHI5R90AAJuZXNxAH4ADKF/nER0AAJlcXNxAH4ADHIDmq10AA9wcm9kdWN0SXRlcmF0b3JzcQB+AAz8hMK5dAACIyNzcQB+AAzH4YdjdAAIZmluYWxpemVzcQB+AAxEh28qdAAOcHJvZHVjdEVsZW1lbnRzcQB+AAyz9RJ2dAAIaGFzaENvZGVzcgATeHNidGkuYXBpLlNvdXJjZUFQSblep/kpIzikAgACWwALZGVmaW5pdGlvbnN0ABdbTHhzYnRpL2FwaS9EZWZpbml0aW9uO1sACHBhY2thZ2VzdAAUW0x4c2J0aS9hcGkvUGFja2FnZTt4cHVyABdbTHhzYnRpLmFwaS5EZWZpbml0aW9uO4jJXOe0414OAgAAeHAAAAABc3IAE3hzYnRpLmFwaS5DbGFzc0xpa2WDNByh37CXbAIABEwADmRlZmluaXRpb25UeXBldAAaTHhzYnRpL2FwaS9EZWZpbml0aW9uVHlwZTtbABBzYXZlZEFubm90YXRpb25zdAATW0xqYXZhL2xhbmcvU3RyaW5nO0wACHNlbGZUeXBldAAQTHhzYnRpL2FwaS9MYXp5O0wACXN0cnVjdHVyZXEAfgBdeHIAIXhzYnRpLmFwaS5QYXJhbWV0ZXJpemVkRGVmaW5pdGlvbvkRbrHVUDziAgABWwAOdHlwZVBhcmFtZXRlcnN0ABpbTHhzYnRpL2FwaS9UeXBlUGFyYW1ldGVyO3hyABR4c2J0aS5hcGkuRGVmaW5pdGlvbocqG+hxQuNGAgAETAAGYWNjZXNzdAASTHhzYnRpL2FwaS9BY2Nlc3M7WwALYW5ub3RhdGlvbnN0ABdbTHhzYnRpL2FwaS9Bbm5vdGF0aW9uO0wACW1vZGlmaWVyc3QAFUx4c2J0aS9hcGkvTW9kaWZpZXJzO0wABG5hbWVxAH4ADXhwc3IAEHhzYnRpLmFwaS5QdWJsaWO6WD2ubC1gQgIAAHhyABB4c2J0aS5hcGkuQWNjZXNz3WKa+B1jMUgCAAB4cHVyABdbTHhzYnRpLmFwaS5Bbm5vdGF0aW9uO+uX6xkQ9o1IAgAAeHAAAAAAc3IAE3hzYnRpLmFwaS5Nb2RpZmllcnPHERMhaZzcJAIAAUIABWZsYWdzeHAAdAAlbmtyLnVqLmxpZGFyLm5ldHdvcmsuTmV0d29ya0Nvbm5lY3RvcnVyABpbTHhzYnRpLmFwaS5UeXBlUGFyYW1ldGVyO9ltJg8onfK2AgAAeHAAAAAAfnIAGHhzYnRpLmFwaS5EZWZpbml0aW9uVHlwZQAAAAAAAAAAEgAAeHIADmphdmEubGFuZy5FbnVtAAAAAAAAAAASAAB4cHQACENsYXNzRGVmdXIAE1tMamF2YS5sYW5nLlN0cmluZzut0lbn6R17RwIAAHhwAAAAAHNyABN4c2J0aS5TYWZlTGF6eSRJbXBsUAIuk5eXQD8CAANaAAhiaXRtYXAkMEwAAl90dAASTGphdmEvbGFuZy9PYmplY3Q7TAAEZXZhbHQAEUxzY2FsYS9GdW5jdGlvbjA7eHIAFnhzYnRpLmFwaS5BYnN0cmFjdExhennTd7UBX7vnoAIAAHhwAHBzcgAgeHNidGkuU2FmZUxhenkkJGFub25mdW4kc3RyaWN0JDEAAAAAAAAAAAIAAUwAB3ZhbHVlJDFxAH4Adnhwc3IAE3hzYnRpLmFwaS5FbXB0eVR5cGW8/Z5GSTuJJAIAAHhyABR4c2J0aS5hcGkuU2ltcGxlVHlwZXJ4YoghI79AAgAAeHIADnhzYnRpLmFwaS5UeXBlP2rZIRZJqsoCAAB4cHNxAH4AdQBwc3EAfgB6c3IAE3hzYnRpLmFwaS5TdHJ1Y3R1cmWpqvmAk2/YAAIAA0wACGRlY2xhcmVkcQB+AF1MAAlpbmhlcml0ZWRxAH4AXUwAB3BhcmVudHNxAH4AXXhxAH4AfnNxAH4AdQBwc3EAfgB6dXEAfgBYAAAAAHNxAH4AdQBwc3EAfgB6dXEAfgBYAAAAAHNxAH4AdQBwc3EAfgB6dXIAEVtMeHNidGkuYXBpLlR5cGU7dP+lWnv56UECAAB4cAAAAAZzcgAUeHNidGkuYXBpLlByb2plY3Rpb27z0o1U6UWkLQIAAkwAAmlkcQB+AA1MAAZwcmVmaXh0ABZMeHNidGkvYXBpL1NpbXBsZVR5cGU7eHEAfgB9dAAMU2VyaWFsaXphYmxlc3IAE3hzYnRpLmFwaS5TaW5nbGV0b278p1/4z1bkRgIAAUwABHBhdGh0ABBMeHNidGkvYXBpL1BhdGg7eHEAfgB9c3IADnhzYnRpLmFwaS5QYXRomz1cCM6lJ4QCAAFbAApjb21wb25lbnRzdAAaW0x4c2J0aS9hcGkvUGF0aENvbXBvbmVudDt4cHVyABpbTHhzYnRpLmFwaS5QYXRoQ29tcG9uZW50O0PaCXQtZxZ0AgAAeHAAAAACc3IADHhzYnRpLmFwaS5JZJgybIs3U8RAAgABTAACaWRxAH4ADXhyABd4c2J0aS5hcGkuUGF0aENvbXBvbmVudF+aIlsuhp+8AgAAeHB0AAVzY2FsYXNyAA54c2J0aS5hcGkuVGhpc9sJ7abMWkBcAgAAeHEAfgCbc3EAfgCOcQB+AJFzcQB+AJJzcQB+AJV1cQB+AJgAAAADc3EAfgCadAAEamF2YXNxAH4AmnQAAmlvcQB+AJ9zcQB+AI50AAdQcm9kdWN0cQB+AJRzcQB+AI50AAZFcXVhbHNxAH4AlHNxAH4AjnQABk9iamVjdHNxAH4AknNxAH4AlXVxAH4AmAAAAANzcQB+AJpxAH4ApXNxAH4AmnQABGxhbmdxAH4An3NxAH4AjnQAA0FueXEAfgCUdXIAFFtMeHNidGkuYXBpLlBhY2thZ2U7WxMZN3CnJ6ECAAB4cAAAAARzcgAReHNidGkuYXBpLlBhY2thZ2V+WY/2rs45WAIAAUwABG5hbWVxAH4ADXhwdAAGbmtyLnVqc3EAfgC4dAADbmtyc3EAfgC4dAAMbmtyLnVqLmxpZGFyc3EAfgC4dAAUbmtyLnVqLmxpZGFyLm5ldHdvcmtzcgAVeHNidGkuYXBpLkNvbXBpbGF0aW9u7frgw2rooEICAAJKAAlzdGFydFRpbWVbAAdvdXRwdXRzdAAaW0x4c2J0aS9hcGkvT3V0cHV0U2V0dGluZzt4cAAAAVHgakBYdXIAGltMeHNidGkuYXBpLk91dHB1dFNldHRpbmc7f2rC86eHpUICAAB4cAAAAAFzcgAXeHNidGkuYXBpLk91dHB1dFNldHRpbmd62ZpHdPsdewIAAkwAD291dHB1dERpcmVjdG9yeXEAfgANTAAPc291cmNlRGlyZWN0b3J5cQB+AA14cHQARi9ob21lL3NvYm90YS9JZGVhUHJvamVjdHMvUm9ib3REYXRhUHJvY2Vzc29yL3RhcmdldC9zY2FsYS0yLjExL2NsYXNzZXN0AAEvdXIAAltCrPMX+AYIVOACAAB4cAAAABRrVK7Y93DPjTHNVwtw7EMZitLJOg==
+/home/sobota/IdeaProjects/RobotDataProcessor/src/main/scala/nkr/uj/lidar/network/ReadData.scala -> 
+rO0ABXNyABB4c2J0aS5hcGkuU291cmNlFlpwRASfbtoCAAZJAAdhcGlIYXNoWgAIaGFzTWFjcm9MABhfaW50ZXJuYWxPbmx5X25hbWVIYXNoZXN0ACRMeHNidGkvYXBpL19pbnRlcm5hbE9ubHlfTmFtZUhhc2hlcztMAANhcGl0ABVMeHNidGkvYXBpL1NvdXJjZUFQSTtMAAtjb21waWxhdGlvbnQAF0x4c2J0aS9hcGkvQ29tcGlsYXRpb247WwAEaGFzaHQAAltCeHCcd2XQAHNyACJ4c2J0aS5hcGkuX2ludGVybmFsT25seV9OYW1lSGFzaGVzVNq+mfrU7EwCAAJbAA9pbXBsaWNpdE1lbWJlcnN0ACNbTHhzYnRpL2FwaS9faW50ZXJuYWxPbmx5X05hbWVIYXNoO1sADnJlZ3VsYXJNZW1iZXJzcQB+AAd4cHVyACNbTHhzYnRpLmFwaS5faW50ZXJuYWxPbmx5X05hbWVIYXNoO0lagLbdlov0AgAAeHAAAAAAdXEAfgAJAAAAJ3NyACB4c2J0aS5hcGkuX2ludGVybmFsT25seV9OYW1lSGFzaFsO9SJ2OFfPAgACSQAEaGFzaEwABG5hbWV0ABJMamF2YS9sYW5nL1N0cmluZzt4cMqvYzV0AAt0b0hleFN0cmluZ3NxAH4ADMtiS3N0AAZub3RpZnlzcQB+AAx1B619dAAEd2FpdHNxAH4ADB68yrh0AA5jb3B5JGRlZmF1bHQkMnNxAH4ADMjTOdN0AA0kYXNJbnN0YW5jZU9mc3EAfgAMSeMkY3QABWJ5dGUwc3EAfgAMkNeO2HQADHByb2R1Y3RBcml0eXNxAH4ADPANKtl0AAZlcXVhbHNzcQB+AAyrry5fdAAFYnl0ZTFzcQB+AAyfRH7IdAAGdG9MaXN0c3EAfgAMOlCKI3QACFJlYWREYXRhc3EAfgAMo0xHt3QAEmlzU3RyZW5ndGhJbmZlcmlvcnNxAH4ADIbiadh0AAxhc0luc3RhbmNlT2ZzcQB+AAzmB1lYdAAMc3luY2hyb25pemVkc3EAfgAM0YZ523QADSRpc0luc3RhbmNlT2ZzcQB+AAx72KoadAAIY2FuRXF1YWxzcQB+AAznRvx/dAAOY29weSRkZWZhdWx0JDRzcQB+AAzvoCHBdAANcHJvZHVjdFByZWZpeHNxAH4ADM+06gR0AAlub3RpZnlBbGxzcQB+AAzy2Xl6dAAMaXNJbnN0YW5jZU9mc3EAfgAMP9CqI3QABjxpbml0PnNxAH4ADA3+AA10AAI9PXNxAH4ADORZNVZ0AAVjbG9uZXNxAH4ADPx5lLN0AAVieXRlM3NxAH4ADKOuQxl0AA5jb3B5JGRlZmF1bHQkM3NxAH4ADIHHaj50AARjb3B5c3EAfgAMm0yqYXQACHRvU3RyaW5nc3EAfgAMO8cWnnQAAiE9c3EAfgAMX94DjXQACGdldENsYXNzc3EAfgAMyiAxs3QADmNvcHkkZGVmYXVsdCQxc3EAfgAMWXVCQnQAC2dldERpc3RhbmNlc3EAfgAMSi/g8HQAAm5lc3EAfgAMvy1MgHQAAmVxc3EAfgAMjbAh+3QAD3Byb2R1Y3RJdGVyYXRvcnNxAH4ADOo7mWR0AAVieXRlMnNxAH4ADKw5fg50AAIjI3NxAH4ADKGPrEV0AAhmaW5hbGl6ZXNxAH4ADJdLCh90AA5wcm9kdWN0RWxlbWVudHNxAH4ADD1hQ750AAhoYXNoQ29kZXNyABN4c2J0aS5hcGkuU291cmNlQVBJuV6n+SkjOKQCAAJbAAtkZWZpbml0aW9uc3QAF1tMeHNidGkvYXBpL0RlZmluaXRpb247WwAIcGFja2FnZXN0ABRbTHhzYnRpL2FwaS9QYWNrYWdlO3hwdXIAF1tMeHNidGkuYXBpLkRlZmluaXRpb247iMlc57TjXg4CAAB4cAAAAAFzcgATeHNidGkuYXBpLkNsYXNzTGlrZYM0HKHfsJdsAgAETAAOZGVmaW5pdGlvblR5cGV0ABpMeHNidGkvYXBpL0RlZmluaXRpb25UeXBlO1sAEHNhdmVkQW5ub3RhdGlvbnN0ABNbTGphdmEvbGFuZy9TdHJpbmc7TAAIc2VsZlR5cGV0ABBMeHNidGkvYXBpL0xhenk7TAAJc3RydWN0dXJlcQB+AGV4cgAheHNidGkuYXBpLlBhcmFtZXRlcml6ZWREZWZpbml0aW9u+RFusdVQPOICAAFbAA50eXBlUGFyYW1ldGVyc3QAGltMeHNidGkvYXBpL1R5cGVQYXJhbWV0ZXI7eHIAFHhzYnRpLmFwaS5EZWZpbml0aW9uhyob6HFC40YCAARMAAZhY2Nlc3N0ABJMeHNidGkvYXBpL0FjY2VzcztbAAthbm5vdGF0aW9uc3QAF1tMeHNidGkvYXBpL0Fubm90YXRpb247TAAJbW9kaWZpZXJzdAAVTHhzYnRpL2FwaS9Nb2RpZmllcnM7TAAEbmFtZXEAfgANeHBzcgAQeHNidGkuYXBpLlB1YmxpY7pYPa5sLWBCAgAAeHIAEHhzYnRpLmFwaS5BY2Nlc3PdYpr4HWMxSAIAAHhwdXIAF1tMeHNidGkuYXBpLkFubm90YXRpb24765frGRD2jUgCAAB4cAAAAABzcgATeHNidGkuYXBpLk1vZGlmaWVyc8cREyFpnNwkAgABQgAFZmxhZ3N4cAB0AB1ua3IudWoubGlkYXIubmV0d29yay5SZWFkRGF0YXVyABpbTHhzYnRpLmFwaS5UeXBlUGFyYW1ldGVyO9ltJg8onfK2AgAAeHAAAAAAfnIAGHhzYnRpLmFwaS5EZWZpbml0aW9uVHlwZQAAAAAAAAAAEgAAeHIADmphdmEubGFuZy5FbnVtAAAAAAAAAAASAAB4cHQACENsYXNzRGVmdXIAE1tMamF2YS5sYW5nLlN0cmluZzut0lbn6R17RwIAAHhwAAAAAHNyABN4c2J0aS5TYWZlTGF6eSRJbXBsUAIuk5eXQD8CAANaAAhiaXRtYXAkMEwAAl90dAASTGphdmEvbGFuZy9PYmplY3Q7TAAEZXZhbHQAEUxzY2FsYS9GdW5jdGlvbjA7eHIAFnhzYnRpLmFwaS5BYnN0cmFjdExhennTd7UBX7vnoAIAAHhwAHBzcgAgeHNidGkuU2FmZUxhenkkJGFub25mdW4kc3RyaWN0JDEAAAAAAAAAAAIAAUwAB3ZhbHVlJDFxAH4Afnhwc3IAE3hzYnRpLmFwaS5FbXB0eVR5cGW8/Z5GSTuJJAIAAHhyABR4c2J0aS5hcGkuU2ltcGxlVHlwZXJ4YoghI79AAgAAeHIADnhzYnRpLmFwaS5UeXBlP2rZIRZJqsoCAAB4cHNxAH4AfQBwc3EAfgCCc3IAE3hzYnRpLmFwaS5TdHJ1Y3R1cmWpqvmAk2/YAAIAA0wACGRlY2xhcmVkcQB+AGVMAAlpbmhlcml0ZWRxAH4AZUwAB3BhcmVudHNxAH4AZXhxAH4AhnNxAH4AfQBwc3EAfgCCdXEAfgBgAAAAAHNxAH4AfQBwc3EAfgCCdXEAfgBgAAAAAHNxAH4AfQBwc3EAfgCCdXIAEVtMeHNidGkuYXBpLlR5cGU7dP+lWnv56UECAAB4cAAAAAZzcgAUeHNidGkuYXBpLlByb2plY3Rpb27z0o1U6UWkLQIAAkwAAmlkcQB+AA1MAAZwcmVmaXh0ABZMeHNidGkvYXBpL1NpbXBsZVR5cGU7eHEAfgCFdAAMU2VyaWFsaXphYmxlc3IAE3hzYnRpLmFwaS5TaW5nbGV0b278p1/4z1bkRgIAAUwABHBhdGh0ABBMeHNidGkvYXBpL1BhdGg7eHEAfgCFc3IADnhzYnRpLmFwaS5QYXRomz1cCM6lJ4QCAAFbAApjb21wb25lbnRzdAAaW0x4c2J0aS9hcGkvUGF0aENvbXBvbmVudDt4cHVyABpbTHhzYnRpLmFwaS5QYXRoQ29tcG9uZW50O0PaCXQtZxZ0AgAAeHAAAAACc3IADHhzYnRpLmFwaS5JZJgybIs3U8RAAgABTAACaWRxAH4ADXhyABd4c2J0aS5hcGkuUGF0aENvbXBvbmVudF+aIlsuhp+8AgAAeHB0AAVzY2FsYXNyAA54c2J0aS5hcGkuVGhpc9sJ7abMWkBcAgAAeHEAfgCjc3EAfgCWcQB+AJlzcQB+AJpzcQB+AJ11cQB+AKAAAAADc3EAfgCidAAEamF2YXNxAH4AonQAAmlvcQB+AKdzcQB+AJZ0AAdQcm9kdWN0cQB+AJxzcQB+AJZ0AAZFcXVhbHNxAH4AnHNxAH4AlnQABk9iamVjdHNxAH4AmnNxAH4AnXVxAH4AoAAAAANzcQB+AKJxAH4ArXNxAH4AonQABGxhbmdxAH4Ap3NxAH4AlnQAA0FueXEAfgCcdXIAFFtMeHNidGkuYXBpLlBhY2thZ2U7WxMZN3CnJ6ECAAB4cAAAAARzcgAReHNidGkuYXBpLlBhY2thZ2V+WY/2rs45WAIAAUwABG5hbWVxAH4ADXhwdAAGbmtyLnVqc3EAfgDAdAADbmtyc3EAfgDAdAAMbmtyLnVqLmxpZGFyc3EAfgDAdAAUbmtyLnVqLmxpZGFyLm5ldHdvcmtzcgAVeHNidGkuYXBpLkNvbXBpbGF0aW9u7frgw2rooEICAAJKAAlzdGFydFRpbWVbAAdvdXRwdXRzdAAaW0x4c2J0aS9hcGkvT3V0cHV0U2V0dGluZzt4cAAAAVHgakBYdXIAGltMeHNidGkuYXBpLk91dHB1dFNldHRpbmc7f2rC86eHpUICAAB4cAAAAAFzcgAXeHNidGkuYXBpLk91dHB1dFNldHRpbmd62ZpHdPsdewIAAkwAD291dHB1dERpcmVjdG9yeXEAfgANTAAPc291cmNlRGlyZWN0b3J5cQB+AA14cHQARi9ob21lL3NvYm90YS9JZGVhUHJvamVjdHMvUm9ib3REYXRhUHJvY2Vzc29yL3RhcmdldC9zY2FsYS0yLjExL2NsYXNzZXN0AAEvdXIAAltCrPMX+AYIVOACAAB4cAAAABQMrdcXyii8FxeFA50WMEb/iIRjKQ==
+/home/sobota/IdeaProjects/RobotDataProcessor/src/main/scala/nkr/uj/lidar/network/ReadingNumber.scala -> 
+rO0ABXNyABB4c2J0aS5hcGkuU291cmNlFlpwRASfbtoCAAZJAAdhcGlIYXNoWgAIaGFzTWFjcm9MABhfaW50ZXJuYWxPbmx5X25hbWVIYXNoZXN0ACRMeHNidGkvYXBpL19pbnRlcm5hbE9ubHlfTmFtZUhhc2hlcztMAANhcGl0ABVMeHNidGkvYXBpL1NvdXJjZUFQSTtMAAtjb21waWxhdGlvbnQAF0x4c2J0aS9hcGkvQ29tcGlsYXRpb247WwAEaGFzaHQAAltCeHBLZ7zrAHNyACJ4c2J0aS5hcGkuX2ludGVybmFsT25seV9OYW1lSGFzaGVzVNq+mfrU7EwCAAJbAA9pbXBsaWNpdE1lbWJlcnN0ACNbTHhzYnRpL2FwaS9faW50ZXJuYWxPbmx5X05hbWVIYXNoO1sADnJlZ3VsYXJNZW1iZXJzcQB+AAd4cHVyACNbTHhzYnRpLmFwaS5faW50ZXJuYWxPbmx5X05hbWVIYXNoO0lagLbdlov0AgAAeHAAAAADc3IAIHhzYnRpLmFwaS5faW50ZXJuYWxPbmx5X05hbWVIYXNoWw71InY4V88CAAJJAARoYXNoTAAEbmFtZXQAEkxqYXZhL2xhbmcvU3RyaW5nO3hwBTc27nQACG9yZGVyaW5nc3EAfgALstA/ZHQADGNhbkJ1aWxkRnJvbXNxAH4AC2Nsgu90AA1ta09yZGVyaW5nT3BzdXEAfgAJAAAAvXNxAH4AC1m//EN0AAxpdGVyYXRvckZyb21zcQB+AAviKH+idAAKdG9JdGVyYWJsZXNxAH4AC/O6mQ90AAp3aXRoRmlsdGVyc3EAfgALu83ZGHQADXRvVHJhdmVyc2FibGVzcQB+AAvincMadAAGbm90aWZ5c3EAfgALDdBGyXQABGZpbmRzcQB+AAuq7OjTdAAEc3BhbnNxAH4AC1jA9490AAdmbGF0dGVuc3EAfgALbUi9bnQACHRvQnVmZmVyc3EAfgAL7Wq+zHQABWNvdW50c3EAfgALEBJzD3QABm5leHRJZHNxAH4AC+p6UbJ0AAxyZWR1Y2VPcHRpb25zcQB+AAuL0rfsdAATc2xpY2VXaXRoS25vd25EZWx0YXNxAH4ACy2GpcZ0AAR3YWl0c3EAfgALPW0ynnQAAjw9c3EAfgALFeVGw3QACWZvbGRSaWdodHNxAH4AC5n91Hh0AAl0YWtlV2hpbGVzcQB+AAtUDzPwdAAMc3RyaW5nUHJlZml4c3EAfgALZrGDyHQADSRhc0luc3RhbmNlT2ZzcQB+AAuGVgSpdAAFZW1wdHlzcQB+AAtZVfh1dAAHc3BsaXRBdHNxAH4AC1BLYId0AAVtaW5CeXNxAH4ACy1VOlR0AARzaXplc3EAfgALImZIEHQABXVuaW9uc3EAfgALfkHjLHQACWludGVyc2VjdHNxAH4ACymb62V0AAVpbml0c3NxAH4ACxd0WmN0AAN6aXBzcQB+AAtYrh4sdAAHY29tcG9zZXNxAH4ACxA+ZI90AAV0b1NldHNxAH4AC3lgZoZ0AAhzdWJzZXRPZnNxAH4ACyTo73Z0AAI6XHNxAH4AC/gOGHN0AANtYXBzcQB+AAs/z7HZdAAJdGFrZVJpZ2h0c3EAfgAL1d5P5HQACWRyb3BXaGlsZXNxAH4AC2D94nF0AAV0b01hcHNxAH4AC3ZI2lR0AAlmaWx0ZXJOb3RzcQB+AAtc1YI6dAAGZXF1YWxzc3EAfgALKonheXQAA3BhcnNxAH4ACysw+QB0AAZ1bnppcDNzcQB+AAs0XVrrdAAEcmVwcnNxAH4AC1pTdpd0AAZ0b0xpc3RzcQB+AAv2gBiedAASaXNUcmF2ZXJzYWJsZUFnYWluc3EAfgAL1fkCEHQABGhlYWRzcQB+AAueaks3dAAMYXNJbnN0YW5jZU9mc3EAfgALEFLQ23QADHNhbWVFbGVtZW50c3NxAH4AC4mX6290AAZSRUFEXzFzcQB+AAtBZ/jedAAQdGhlbkNvbXBhcmluZ0ludHNxAH4AC3VIXUZ0AAE8c3EAfgALRwCWg3QABXVuemlwc3EAfgALRsgca3QAEHJlZHVjZUxlZnRPcHRpb25zcQB+AAvhO0EkdAABJnNxAH4AC6n4oLl0AAxzeW5jaHJvbml6ZWRzcQB+AAuu4CYIdAAHc2xpZGluZ3NxAH4AC461Ptd0AAl0b0JpdE1hc2tzcQB+AAsZCXyqdAAEU2VsZnNxAH4AC4sSvsl0AAlwYXJ0aXRpb25zcQB+AAvuGU/cdAAJYWdncmVnYXRlc3EAfgALCTBFIHQADSRpc0luc3RhbmNlT2ZzcQB+AAu5daDjdAAGZm9yYWxsc3EAfgALvV46dnQACm5ld0J1aWxkZXJzcQB+AAt6WzvOdAAHYW5kVGhlbnNxAH4AC6bExUt0AAhta1N0cmluZ3NxAH4ACzS2dEt0AAI+PXNxAH4ACxholzl0AANtaW5zcQB+AAt64KbYdAAJc2NhblJpZ2h0c3EAfgALa8zA13QABmhhc0FsbHNxAH4AC1rMNzZ0AARmb2xkc3EAfgAL8TGxsHQAAXxzcQB+AAv4DJOMdAAEc2NhbnNxAH4AC4l4bmB0AAhub25FbXB0eXNxAH4AC9ZPvjZ0AAhjYW5FcXVhbHNxAH4ACw40+G90AAR0YWlsc3EAfgALCJwrL3QADVJlYWRpbmdOdW1iZXJzcQB+AAucMlPOdAAKbGFzdE9wdGlvbnNxAH4AC81Jutd0AANWYWxzcQB+AAsfbnxXdAAJZHJvcFJpZ2h0c3EAfgALw8hYaHQACGl0ZXJhdG9yc3EAfgALzHU3tXQABGxhc3RzcQB+AAvLy13JdAANVmFsdWVPcmRlcmluZ3NxAH4AC8FEVBx0AAVWYWx1ZXNxAH4AC4q0cB10AAtmcm9tQml0TWFza3NxAH4ACxyPHxp0AAlvdXRlckVudW1zcQB+AAseqG8TdAAFdW50aWxzcQB+AAuvy19+dAAJbm90aWZ5QWxsc3EAfgALZhYgUXQAC3JlYWRSZXNvbHZlc3EAfgAL2/yeAXQAClJlYWROdW1iZXJzcQB+AAucWo+3dAACLzpzcQB+AAvn3xtndAAKdG9JdGVyYXRvcnNxAH4AC7+pFol0AAlhZGRTdHJpbmdzcQB+AAtCfwnLdAACdG9zcQB+AAuHahwPdAAGa2V5U2V0c3EAfgALMpoCdXQADGNvbGxlY3RGaXJzdHNxAH4AC2+zQhR0AAljb21wYXJlVG9zcQB+AAuXbenBdAAQa2V5c0l0ZXJhdG9yRnJvbXNxAH4AC/oeGW50AARkcm9wc3EAfgALU+2t83QAAS1zcQB+AAvPpT4vdAAMaXNJbnN0YW5jZU9mc3EAfgALfkYfsHQAB3JldmVyc2VzcQB+AAvfYEBIdAAFbWF4SWRzcQB+AAtoNp0PdAAGZmlsdGVyc3EAfgALHttDP3QAAysrOnNxAH4AC1fDzKd0AAhuZXh0TmFtZXNxAH4AC7kRVfl0AAY8aW5pdD5zcQB+AAtmMlLidAAIdG9TdHJlYW1zcQB+AAvoIkjYdAACaWRzcQB+AAtPNTLSdAAJY29tcGFuaW9uc3EAfgAL7lxtP3QAA21heHNxAH4AC7kSspN0AAJvbnNxAH4AC7WdrOV0AAV0YWlsc3NxAH4AC6zWF6N0AAhWYWx1ZVNldHNxAH4AC5Ow9hJ0AAVhcHBseXNxAH4AC3mJz8V0AAh3aXRoTmFtZXNxAH4ACxbhWfN0AAIrK3NxAH4AC/hu/7Z0AAdncm91cGVkc3EAfgAL1QgdNnQABGRpZmZzcQB+AAthsIYZdAAHZmxhdE1hcHNxAH4AC4uU0EV0AAR0YWtlc3EAfgALHXQjY3QAC3BhckNvbWJpbmVyc3EAfgALzVfpA3QAC3JlZHVjZVJpZ2h0c3EAfgALuTSEtXQAB2dyb3VwQnlzcQB+AAtWNwcQdAACPT1zcQB+AAs5pUUjdAAFbWF4QnlzcQB+AAtJk/OpdAAFcmFuZ2VzcQB+AAt16jm9dAANdGhlbkNvbXBhcmluZ3NxAH4ACxq3C650ABNzbGljZVdpdGhLbm93bkJvdW5kc3EAfgAL+vlthHQABWNsb25lc3EAfgALOtYMFHQABXNsaWNlc3EAfgALrhvPwHQAB2ZvcmVhY2hzcQB+AAvfn6yadAAHbGFzdEtleXNxAH4AC8/J4vp0AAImfnNxAH4AC3sAtcJ0AARsdGVxc3EAfgALwLV9gXQABmV4aXN0c3NxAH4ACzDeSg50ABFyZWR1Y2VSaWdodE9wdGlvbnNxAH4ACxdpGUV0AAh0b1ZlY3RvcnNxAH4AC34VHY50AAx0b0luZGV4ZWRTZXFzcQB+AAs6F/4hdAAKdHJ5Q29tcGFyZXNxAH4AC6qBF690AAxjb3B5VG9CdWZmZXJzcQB+AAuhMymZdAAHdG9BcnJheXNxAH4AC3vuGBZ0AAZyZWR1Y2VzcQB+AAvxFHYOdAAHc3Vic2V0c3NxAH4AC2ecHr90AAZSRUFEXzNzcQB+AAvX0mdJdAAEZnJvbXNxAH4AC51eKLB0AAV0b1NlcXNxAH4ACzZIXjZ0AAx6aXBXaXRoSW5kZXhzcQB+AAtvHI9sdAATdGhlbkNvbXBhcmluZ0RvdWJsZXNxAH4AC7Fy3HB0AAZSRUFEXzBzcQB+AAsGHJ0ydAAIZmlyc3RLZXlzcQB+AAtiJf1XdAAGdmFsdWVzc3EAfgALo+vMynQACHRvU3RyaW5nc3EAfgALlzY14XQADmdlbmVyaWNCdWlsZGVyc3EAfgALCe7M3XQAC2NvcHlUb0FycmF5c3EAfgALLjcXtXQAA3NlcXNxAH4ACxRmUhF0AAErc3EAfgALeeG2SHQAAiE9c3EAfgAL8sZvInQACXRyYW5zcG9zZXNxAH4ACzf+YHR0AAVlcXVpdnNxAH4ACy5R5zB0AAdjb2xsZWN0c3EAfgALizKHNXQACmhlYWRPcHRpb25zcQB+AAvArmvzdAAIZ2V0Q2xhc3NzcQB+AAvPt1SbdAAKV2l0aEZpbHRlcnNxAH4AC0e8qxh0AA9oYXNEZWZpbml0ZVNpemVzcQB+AAvGVpTRdAACLS1zcQB+AAsnMA3zdAAIZm9sZExlZnRzcQB+AAvPt/VWdAAIY29udGFpbnNzcQB+AAtTpDFadAARdGhlbkNvbXBhcmluZ0xvbmdzcQB+AAtx715+dAAMdG9Db2xsZWN0aW9uc3EAfgALDiTXbnQAB2lzRW1wdHlzcQB+AAsWNzcqdAACbmVzcQB+AAtcK7w3dAACbHRzcQB+AAsYXVNCdAAEaW5pdHNxAH4AC4fTYj90AAJndHNxAH4AC2X2kiJ0AAhyZXZlcnNlZHNxAH4AC50jJFh0AANPcHNzcQB+AAuAblVVdAAKcmVkdWNlTGVmdHNxAH4AC6gK9T10AAJlcXNxAH4AC84G2P50AAdjb21wYXJlc3EAfgALd9OmvHQAA3N1bXNxAH4ACxSb+2R0AAZSRUFEXzJzcQB+AAspqizKdAAOdGhpc0NvbGxlY3Rpb25zcQB+AAs02AfYdAABPnNxAH4ACy0/3nF0AAIjI3NxAH4AC4vSk1h0AAhzY2FuTGVmdHNxAH4AC71dHuR0AAhmaW5hbGl6ZXNxAH4ACwEjqH10AAhoYXNoQ29kZXNxAH4AC3xkVF50AAlyYW5nZUltcGxzcQB+AAue76o8dAAGemlwQWxsc3EAfgALGPcA2HQAB3Byb2R1Y3RzcQB+AAuN3vcSdAAEdmlld3NxAH4AC+rHjG10AARndGVxc3IAE3hzYnRpLmFwaS5Tb3VyY2VBUEm5Xqf5KSM4pAIAAlsAC2RlZmluaXRpb25zdAAXW0x4c2J0aS9hcGkvRGVmaW5pdGlvbjtbAAhwYWNrYWdlc3QAFFtMeHNidGkvYXBpL1BhY2thZ2U7eHB1cgAXW0x4c2J0aS5hcGkuRGVmaW5pdGlvbjuIyVzntONeDgIAAHhwAAAAAXNyABN4c2J0aS5hcGkuQ2xhc3NMaWtlgzQcod+wl2wCAARMAA5kZWZpbml0aW9uVHlwZXQAGkx4c2J0aS9hcGkvRGVmaW5pdGlvblR5cGU7WwAQc2F2ZWRBbm5vdGF0aW9uc3QAE1tMamF2YS9sYW5nL1N0cmluZztMAAhzZWxmVHlwZXQAEEx4c2J0aS9hcGkvTGF6eTtMAAlzdHJ1Y3R1cmVxAH4Bl3hyACF4c2J0aS5hcGkuUGFyYW1ldGVyaXplZERlZmluaXRpb275EW6x1VA84gIAAVsADnR5cGVQYXJhbWV0ZXJzdAAaW0x4c2J0aS9hcGkvVHlwZVBhcmFtZXRlcjt4cgAUeHNidGkuYXBpLkRlZmluaXRpb26HKhvocULjRgIABEwABmFjY2Vzc3QAEkx4c2J0aS9hcGkvQWNjZXNzO1sAC2Fubm90YXRpb25zdAAXW0x4c2J0aS9hcGkvQW5ub3RhdGlvbjtMAAltb2RpZmllcnN0ABVMeHNidGkvYXBpL01vZGlmaWVycztMAARuYW1lcQB+AAx4cHNyABB4c2J0aS5hcGkuUHVibGljulg9rmwtYEICAAB4cgAQeHNidGkuYXBpLkFjY2Vzc91imvgdYzFIAgAAeHB1cgAXW0x4c2J0aS5hcGkuQW5ub3RhdGlvbjvrl+sZEPaNSAIAAHhwAAAAAHNyABN4c2J0aS5hcGkuTW9kaWZpZXJzxxETIWmc3CQCAAFCAAVmbGFnc3hwAHQAIm5rci51ai5saWRhci5uZXR3b3JrLlJlYWRpbmdOdW1iZXJ1cgAaW0x4c2J0aS5hcGkuVHlwZVBhcmFtZXRlcjvZbSYPKJ3ytgIAAHhwAAAAAH5yABh4c2J0aS5hcGkuRGVmaW5pdGlvblR5cGUAAAAAAAAAABIAAHhyAA5qYXZhLmxhbmcuRW51bQAAAAAAAAAAEgAAeHB0AAZNb2R1bGV1cgATW0xqYXZhLmxhbmcuU3RyaW5nO63SVufpHXtHAgAAeHAAAAAAc3IAE3hzYnRpLlNhZmVMYXp5JEltcGxQAi6Tl5dAPwIAA1oACGJpdG1hcCQwTAACX3R0ABJMamF2YS9sYW5nL09iamVjdDtMAARldmFsdAARTHNjYWxhL0Z1bmN0aW9uMDt4cgAWeHNidGkuYXBpLkFic3RyYWN0TGF6edN3tQFfu+egAgAAeHAAcHNyACB4c2J0aS5TYWZlTGF6eSQkYW5vbmZ1biRzdHJpY3QkMQAAAAAAAAAAAgABTAAHdmFsdWUkMXEAfgGweHBzcgATeHNidGkuYXBpLkVtcHR5VHlwZbz9nkZJO4kkAgAAeHIAFHhzYnRpLmFwaS5TaW1wbGVUeXBlcnhiiCEjv0ACAAB4cgAOeHNidGkuYXBpLlR5cGU/atkhFkmqygIAAHhwc3EAfgGvAHBzcQB+AbRzcgATeHNidGkuYXBpLlN0cnVjdHVyZamq+YCTb9gAAgADTAAIZGVjbGFyZWRxAH4Bl0wACWluaGVyaXRlZHEAfgGXTAAHcGFyZW50c3EAfgGXeHEAfgG4c3EAfgGvAHBzcQB+AbR1cQB+AZIAAAAAc3EAfgGvAHBzcQB+AbR1cQB+AZIAAAAAc3EAfgGvAHBzcQB+AbR1cgARW0x4c2J0aS5hcGkuVHlwZTt0/6Vae/npQQIAAHhwAAAABXNyABR4c2J0aS5hcGkuUHJvamVjdGlvbvPSjVTpRaQtAgACTAACaWRxAH4ADEwABnByZWZpeHQAFkx4c2J0aS9hcGkvU2ltcGxlVHlwZTt4cQB+Abd0AAtFbnVtZXJhdGlvbnNyABN4c2J0aS5hcGkuU2luZ2xldG9u/Kdf+M9W5EYCAAFMAARwYXRodAAQTHhzYnRpL2FwaS9QYXRoO3hxAH4Bt3NyAA54c2J0aS5hcGkuUGF0aJs9XAjOpSeEAgABWwAKY29tcG9uZW50c3QAGltMeHNidGkvYXBpL1BhdGhDb21wb25lbnQ7eHB1cgAaW0x4c2J0aS5hcGkuUGF0aENvbXBvbmVudDtD2gl0LWcWdAIAAHhwAAAAAnNyAAx4c2J0aS5hcGkuSWSYMmyLN1PEQAIAAUwAAmlkcQB+AAx4cgAXeHNidGkuYXBpLlBhdGhDb21wb25lbnRfmiJbLoafvAIAAHhwdAAFc2NhbGFzcgAOeHNidGkuYXBpLlRoaXPbCe2mzFpAXAIAAHhxAH4B1XNxAH4ByHQADFNlcmlhbGl6YWJsZXEAfgHOc3EAfgHIcQB+AdtzcQB+AcxzcQB+Ac91cQB+AdIAAAADc3EAfgHUdAAEamF2YXNxAH4B1HQAAmlvcQB+AdlzcQB+Ach0AAZPYmplY3RzcQB+AcxzcQB+Ac91cQB+AdIAAAADc3EAfgHUcQB+AeFzcQB+AdR0AARsYW5ncQB+AdlzcQB+Ach0AANBbnlxAH4BznVyABRbTHhzYnRpLmFwaS5QYWNrYWdlO1sTGTdwpyehAgAAeHAAAAAEc3IAEXhzYnRpLmFwaS5QYWNrYWdlflmP9q7OOVgCAAFMAARuYW1lcQB+AAx4cHQABm5rci51anNxAH4B8HQAA25rcnNxAH4B8HQADG5rci51ai5saWRhcnNxAH4B8HQAFG5rci51ai5saWRhci5uZXR3b3Jrc3IAFXhzYnRpLmFwaS5Db21waWxhdGlvbu364MNq6KBCAgACSgAJc3RhcnRUaW1lWwAHb3V0cHV0c3QAGltMeHNidGkvYXBpL091dHB1dFNldHRpbmc7eHAAAAFR4GpAWHVyABpbTHhzYnRpLmFwaS5PdXRwdXRTZXR0aW5nO39qwvOnh6VCAgAAeHAAAAABc3IAF3hzYnRpLmFwaS5PdXRwdXRTZXR0aW5netmaR3T7HXsCAAJMAA9vdXRwdXREaXJlY3RvcnlxAH4ADEwAD3NvdXJjZURpcmVjdG9yeXEAfgAMeHB0AEYvaG9tZS9zb2JvdGEvSWRlYVByb2plY3RzL1JvYm90RGF0YVByb2Nlc3Nvci90YXJnZXQvc2NhbGEtMi4xMS9jbGFzc2VzdAABL3VyAAJbQqzzF/gGCFTgAgAAeHAAAAAUY4W9gDLgjiF9wlq37qdka5myYdU=
+/home/sobota/IdeaProjects/RobotDataProcessor/src/main/scala/nkr/uj/lidar/network/package.scala -> 
+rO0ABXNyABB4c2J0aS5hcGkuU291cmNlFlpwRASfbtoCAAZJAAdhcGlIYXNoWgAIaGFzTWFjcm9MABhfaW50ZXJuYWxPbmx5X25hbWVIYXNoZXN0ACRMeHNidGkvYXBpL19pbnRlcm5hbE9ubHlfTmFtZUhhc2hlcztMAANhcGl0ABVMeHNidGkvYXBpL1NvdXJjZUFQSTtMAAtjb21waWxhdGlvbnQAF0x4c2J0aS9hcGkvQ29tcGlsYXRpb247WwAEaGFzaHQAAltCeHBZNO6GAHNyACJ4c2J0aS5hcGkuX2ludGVybmFsT25seV9OYW1lSGFzaGVzVNq+mfrU7EwCAAJbAA9pbXBsaWNpdE1lbWJlcnN0ACNbTHhzYnRpL2FwaS9faW50ZXJuYWxPbmx5X05hbWVIYXNoO1sADnJlZ3VsYXJNZW1iZXJzcQB+AAd4cHVyACNbTHhzYnRpLmFwaS5faW50ZXJuYWxPbmx5X05hbWVIYXNoO0lagLbdlov0AgAAeHAAAAAAdXEAfgAJAAAAF3NyACB4c2J0aS5hcGkuX2ludGVybmFsT25seV9OYW1lSGFzaFsO9SJ2OFfPAgACSQAEaGFzaEwABG5hbWV0ABJMamF2YS9sYW5nL1N0cmluZzt4cJ5s9yd0AAZub3RpZnlzcQB+AAyg1QsQdAAHcGFja2FnZXNxAH4ADC8ID4R0AAR3YWl0c3EAfgAMs4XSonQADSRhc0luc3RhbmNlT2ZzcQB+AAx353cMdAAGZXF1YWxzc3EAfgAMfy/UD3QADGFzSW5zdGFuY2VPZnNxAH4ADCzr6cR0AAxzeW5jaHJvbml6ZWRzcQB+AAxuCJyQdAANJGlzSW5zdGFuY2VPZnNxAH4ADPfzDRd0AAVTcGVlZHNxAH4ADGCjBPF0AAlub3RpZnlBbGxzcQB+AAzQK650dAAMaXNJbnN0YW5jZU9mc3EAfgAM+HKlLnQAAj09c3EAfgAMYCkkxHQABWNsb25lc3EAfgAMFWtbsXQACHRvU3RyaW5nc3EAfgAMbQ9QcHQAAiE9c3EAfgAMuC2tB3QACGdldENsYXNzc3EAfgAMF7/zbXQAC1BBQ0tFVF9TSVpFc3EAfgAMM34fXHQAAm5lc3EAfgAM+hFxoXQAAmVxc3EAfgAMpeq8AnQAAiMjc3EAfgAMHSL8uXQACGZpbmFsaXplc3EAfgAMlPndynQACGhhc2hDb2Rlc3EAfgAMM9y8MHQABUluZGV4c3IAE3hzYnRpLmFwaS5Tb3VyY2VBUEm5Xqf5KSM4pAIAAlsAC2RlZmluaXRpb25zdAAXW0x4c2J0aS9hcGkvRGVmaW5pdGlvbjtbAAhwYWNrYWdlc3QAFFtMeHNidGkvYXBpL1BhY2thZ2U7eHB1cgAXW0x4c2J0aS5hcGkuRGVmaW5pdGlvbjuIyVzntONeDgIAAHhwAAAAAXNyABN4c2J0aS5hcGkuQ2xhc3NMaWtlgzQcod+wl2wCAARMAA5kZWZpbml0aW9uVHlwZXQAGkx4c2J0aS9hcGkvRGVmaW5pdGlvblR5cGU7WwAQc2F2ZWRBbm5vdGF0aW9uc3QAE1tMamF2YS9sYW5nL1N0cmluZztMAAhzZWxmVHlwZXQAEEx4c2J0aS9hcGkvTGF6eTtMAAlzdHJ1Y3R1cmVxAH4ARXhyACF4c2J0aS5hcGkuUGFyYW1ldGVyaXplZERlZmluaXRpb275EW6x1VA84gIAAVsADnR5cGVQYXJhbWV0ZXJzdAAaW0x4c2J0aS9hcGkvVHlwZVBhcmFtZXRlcjt4cgAUeHNidGkuYXBpLkRlZmluaXRpb26HKhvocULjRgIABEwABmFjY2Vzc3QAEkx4c2J0aS9hcGkvQWNjZXNzO1sAC2Fubm90YXRpb25zdAAXW0x4c2J0aS9hcGkvQW5ub3RhdGlvbjtMAAltb2RpZmllcnN0ABVMeHNidGkvYXBpL01vZGlmaWVycztMAARuYW1lcQB+AA14cHNyABB4c2J0aS5hcGkuUHVibGljulg9rmwtYEICAAB4cgAQeHNidGkuYXBpLkFjY2Vzc91imvgdYzFIAgAAeHB1cgAXW0x4c2J0aS5hcGkuQW5ub3RhdGlvbjvrl+sZEPaNSAIAAHhwAAAAAHNyABN4c2J0aS5hcGkuTW9kaWZpZXJzxxETIWmc3CQCAAFCAAVmbGFnc3hwAHQAHG5rci51ai5saWRhci5uZXR3b3JrLnBhY2thZ2V1cgAaW0x4c2J0aS5hcGkuVHlwZVBhcmFtZXRlcjvZbSYPKJ3ytgIAAHhwAAAAAH5yABh4c2J0aS5hcGkuRGVmaW5pdGlvblR5cGUAAAAAAAAAABIAAHhyAA5qYXZhLmxhbmcuRW51bQAAAAAAAAAAEgAAeHB0AAZNb2R1bGV1cgATW0xqYXZhLmxhbmcuU3RyaW5nO63SVufpHXtHAgAAeHAAAAAAc3IAE3hzYnRpLlNhZmVMYXp5JEltcGxQAi6Tl5dAPwIAA1oACGJpdG1hcCQwTAACX3R0ABJMamF2YS9sYW5nL09iamVjdDtMAARldmFsdAARTHNjYWxhL0Z1bmN0aW9uMDt4cgAWeHNidGkuYXBpLkFic3RyYWN0TGF6edN3tQFfu+egAgAAeHAAcHNyACB4c2J0aS5TYWZlTGF6eSQkYW5vbmZ1biRzdHJpY3QkMQAAAAAAAAAAAgABTAAHdmFsdWUkMXEAfgBeeHBzcgATeHNidGkuYXBpLkVtcHR5VHlwZbz9nkZJO4kkAgAAeHIAFHhzYnRpLmFwaS5TaW1wbGVUeXBlcnhiiCEjv0ACAAB4cgAOeHNidGkuYXBpLlR5cGU/atkhFkmqygIAAHhwc3EAfgBdAHBzcQB+AGJzcgATeHNidGkuYXBpLlN0cnVjdHVyZamq+YCTb9gAAgADTAAIZGVjbGFyZWRxAH4ARUwACWluaGVyaXRlZHEAfgBFTAAHcGFyZW50c3EAfgBFeHEAfgBmc3EAfgBdAHBzcQB+AGJ1cQB+AEAAAAAAc3EAfgBdAHBzcQB+AGJ1cQB+AEAAAAAAc3EAfgBdAHBzcQB+AGJ1cgARW0x4c2J0aS5hcGkuVHlwZTt0/6Vae/npQQIAAHhwAAAAAnNyABR4c2J0aS5hcGkuUHJvamVjdGlvbvPSjVTpRaQtAgACTAACaWRxAH4ADUwABnByZWZpeHQAFkx4c2J0aS9hcGkvU2ltcGxlVHlwZTt4cQB+AGV0AAZPYmplY3RzcgATeHNidGkuYXBpLlNpbmdsZXRvbvynX/jPVuRGAgABTAAEcGF0aHQAEEx4c2J0aS9hcGkvUGF0aDt4cQB+AGVzcgAOeHNidGkuYXBpLlBhdGibPVwIzqUnhAIAAVsACmNvbXBvbmVudHN0ABpbTHhzYnRpL2FwaS9QYXRoQ29tcG9uZW50O3hwdXIAGltMeHNidGkuYXBpLlBhdGhDb21wb25lbnQ7Q9oJdC1nFnQCAAB4cAAAAANzcgAMeHNidGkuYXBpLklkmDJsizdTxEACAAFMAAJpZHEAfgANeHIAF3hzYnRpLmFwaS5QYXRoQ29tcG9uZW50X5oiWy6Gn7wCAAB4cHQABGphdmFzcQB+AIJ0AARsYW5nc3IADnhzYnRpLmFwaS5UaGlz2wntpsxaQFwCAAB4cQB+AINzcQB+AHZ0AANBbnlzcQB+AHpzcQB+AH11cQB+AIAAAAACc3EAfgCCdAAFc2NhbGFxAH4AiXVyABRbTHhzYnRpLmFwaS5QYWNrYWdlO1sTGTdwpyehAgAAeHAAAAAEc3IAEXhzYnRpLmFwaS5QYWNrYWdlflmP9q7OOVgCAAFMAARuYW1lcQB+AA14cHQABm5rci51anNxAH4Ak3QAA25rcnNxAH4Ak3QADG5rci51ai5saWRhcnNxAH4Ak3QAFG5rci51ai5saWRhci5uZXR3b3Jrc3IAFXhzYnRpLmFwaS5Db21waWxhdGlvbu364MNq6KBCAgACSgAJc3RhcnRUaW1lWwAHb3V0cHV0c3QAGltMeHNidGkvYXBpL091dHB1dFNldHRpbmc7eHAAAAFR4GpAWHVyABpbTHhzYnRpLmFwaS5PdXRwdXRTZXR0aW5nO39qwvOnh6VCAgAAeHAAAAABc3IAF3hzYnRpLmFwaS5PdXRwdXRTZXR0aW5netmaR3T7HXsCAAJMAA9vdXRwdXREaXJlY3RvcnlxAH4ADUwAD3NvdXJjZURpcmVjdG9yeXEAfgANeHB0AEYvaG9tZS9zb2JvdGEvSWRlYVByb2plY3RzL1JvYm90RGF0YVByb2Nlc3Nvci90YXJnZXQvc2NhbGEtMi4xMS9jbGFzc2VzdAABL3VyAAJbQqzzF/gGCFTgAgAAeHAAAAAUMpD1QfoL3EgRfBTU1lbrubuXBW4=
+external apis:
+0 items
+source infos:
+6 items
+/home/sobota/IdeaProjects/RobotDataProcessor/src/main/scala/nkr/uj/lidar/network/LidarPacket.scala -> 
+AAAAAAAAAAA=
+/home/sobota/IdeaProjects/RobotDataProcessor/src/main/scala/nkr/uj/lidar/network/Main.scala -> 
+AAAAAAAAAAA=
+/home/sobota/IdeaProjects/RobotDataProcessor/src/main/scala/nkr/uj/lidar/network/NetworkConnector.scala -> 
+AAAAAAAAAAA=
+/home/sobota/IdeaProjects/RobotDataProcessor/src/main/scala/nkr/uj/lidar/network/ReadData.scala -> 
+AAAAAAAAAAA=
+/home/sobota/IdeaProjects/RobotDataProcessor/src/main/scala/nkr/uj/lidar/network/ReadingNumber.scala -> 
+AAAAAAAAAAA=
+/home/sobota/IdeaProjects/RobotDataProcessor/src/main/scala/nkr/uj/lidar/network/package.scala -> 
+AAAAAAAAAAA=
+compilations:
+2 items
+0 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABUeBqQFh1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQARi9ob21lL3NvYm90YS9JZGVhUHJvamVjdHMvUm9ib3REYXRhUHJvY2Vzc29yL3RhcmdldC9zY2FsYS0yLjExL2NsYXNzZXN0AAEv
+1 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABUeVa63h1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQARi9ob21lL3NvYm90YS9JZGVhUHJvamVjdHMvUm9ib3REYXRhUHJvY2Vzc29yL3RhcmdldC9zY2FsYS0yLjExL2NsYXNzZXN0AAEv
