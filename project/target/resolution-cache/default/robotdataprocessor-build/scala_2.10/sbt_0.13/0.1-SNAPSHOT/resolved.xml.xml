@@ -4,7 +4,7 @@
 		module="robotdataprocessor-build"
 		revision="0.1-SNAPSHOT"
 		status="integration"
-		publication="20151227232011"
+		publication="20151228140605"
 		e:sbtVersion="0.13" e:scalaVersion="2.10"
 	>
 		<description>

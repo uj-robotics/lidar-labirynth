@@ -3,8 +3,8 @@ package nkr.uj.lidar.network
 import java.lang.Math._
 
 /**
- * Created by sobota on 23.12.15.
- */
+  * Created by sobota on 23.12.15.
+  */
 
 
 case class LidarPacket(index: Index, speed: Speed, data0: ReadData, data1: ReadData, data2: ReadData, data3: ReadData) {
@@ -19,15 +19,14 @@ case class LidarPacket(index: Index, speed: Speed, data0: ReadData, data1: ReadD
 
   def getAxisDistance(readNumber: ReadNumber): Option[(Double, Double)] = {
 
-
     readNumber match {
 
       case READ_0 => {
 
         val degRad = ((index * 4 + 0) * PI) / 180.0
 
-        data0.getDistance match{
-          case Some(x) => Some((cos(degRad)*x, -sin(degRad)*x))
+        data0.getDistance match {
+          case Some(x) => Some((cos(degRad) * x, -sin(degRad) * x))
           case None => None
         }
       }
@@ -36,8 +35,8 @@ case class LidarPacket(index: Index, speed: Speed, data0: ReadData, data1: ReadD
 
         val degRad = ((index * 4 + 1) * PI) / 180.0
 
-        data1.getDistance match{
-          case Some(x) => Some((cos(degRad)*x, -sin(degRad)*x))
+        data1.getDistance match {
+          case Some(x) => Some((cos(degRad) * x, -sin(degRad) * x))
           case None => None
         }
       }
@@ -46,8 +45,8 @@ case class LidarPacket(index: Index, speed: Speed, data0: ReadData, data1: ReadD
 
         val degRad = ((index * 4 + 2) * PI) / 180.0
 
-        data2.getDistance match{
-          case Some(x) => Some((cos(degRad)*x, -sin(degRad)*x))
+        data2.getDistance match {
+          case Some(x) => Some((cos(degRad) * x, -sin(degRad) * x))
           case None => None
         }
       }
@@ -56,11 +55,11 @@ case class LidarPacket(index: Index, speed: Speed, data0: ReadData, data1: ReadD
 
         val degRad = ((index * 4 + 3) * PI) / 180.0
 
-        data3.getDistance match{
-          case Some(x) => Some((cos(degRad)*x, -sin(degRad)*x))
+        data3.getDistance match {
+          case Some(x) => Some((cos(degRad) * x, -sin(degRad) * x))
           case None => None
         }
-        }
+      }
     }
 
   }

@@ -3,8 +3,8 @@ package nkr.uj.lidar.network
 import nkr.uj.lidar.network.ReadingNumber._
 
 /**
- * Created by sobota on 23.12.15.
- */
+  * Created by sobota on 23.12.15.
+  */
 object Main extends App {
 
   private val connector = NetworkConnector { packet =>
