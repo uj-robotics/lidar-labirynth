@@ -3,11 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="c2a71ff5-cb39-42ce-b0eb-4cc77ad27653" name="Default" comment="Painting on canvas with some bugs">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/LidarNetworkDriver/PycharmProjects/LidarNetworkDriver" afterPath="$PROJECT_DIR$/LidarNetworkDriver/PycharmProjects/LidarNetworkDriver" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/streams/$global/update/$global/streams/update_cache_2.11/inputs" afterPath="$PROJECT_DIR$/target/streams/$global/update/$global/streams/update_cache_2.11/inputs" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/streams/$global/update/$global/streams/update_cache_2.11/output" afterPath="$PROJECT_DIR$/target/streams/$global/update/$global/streams/update_cache_2.11/output" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/scala/nkr/uj/lidar/graphics/GuiMain.scala" afterPath="$PROJECT_DIR$/src/main/scala/nkr/uj/lidar/graphics/GuiMain.scala" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/streams/$global/update/$global/streams/out" afterPath="$PROJECT_DIR$/target/streams/$global/update/$global/streams/out" />
     </list>
     <ignored path="RobotServer.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -49,7 +46,7 @@
         <entry file="file://$PROJECT_DIR$/src/main/scala/nkr/uj/lidar/graphics/GuiMain.scala">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.36129034">
-              <caret line="105" column="80" selection-start-line="105" selection-start-column="80" selection-end-line="105" selection-end-column="80" />
+              <caret line="105" column="92" selection-start-line="105" selection-start-column="92" selection-end-line="105" selection-end-column="92" />
               <folding>
                 <element signature="e#31#63#0" expanded="true" />
               </folding>
@@ -1006,7 +1003,7 @@
       <workItem from="1451252869192" duration="1408000" />
       <workItem from="1451255790515" duration="121000" />
       <workItem from="1451255934480" duration="1407000" />
-      <workItem from="1451259467117" duration="23173000" />
+      <workItem from="1451259467117" duration="23224000" />
     </task>
     <task id="LOCAL-00001" summary="Repaired Intellij config">
       <created>1451260405042</created>
@@ -1020,11 +1017,17 @@
       <option name="project" value="LOCAL" />
       <updated>1451334172537</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Painting on canvas with some bugs">
+      <created>1451334321768</created>
+      <option name="number" value="00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1451334321768</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="62021000" />
+    <option name="totallyTimeSpent" value="62072000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-1" y="1" width="1368" height="768" extended-state="6" />
@@ -1440,7 +1443,7 @@
     <entry file="file://$PROJECT_DIR$/src/main/scala/nkr/uj/lidar/graphics/GuiMain.scala">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.36129034">
-          <caret line="105" column="80" selection-start-line="105" selection-start-column="80" selection-end-line="105" selection-end-column="80" />
+          <caret line="105" column="92" selection-start-line="105" selection-start-column="92" selection-end-line="105" selection-end-column="92" />
           <folding>
             <element signature="e#31#63#0" expanded="true" />
           </folding>

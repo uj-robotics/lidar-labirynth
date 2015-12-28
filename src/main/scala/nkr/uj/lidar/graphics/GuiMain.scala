@@ -103,7 +103,7 @@ object GuiMain extends JFXApp {
 
     val transformed = vector match {
 
-      case (x, y) if x < 0 && y < 0 => (centerHeight + Math.abs(x), centerWidth + Math.abs(y))
+      case (x, y) if x < 0 && y < 0 => (centerHeight + Math.abs(y), centerWidth + Math.abs(x))
       case c => c
     }
 
