@@ -30,8 +30,8 @@ object GuiMain extends JFXApp {
   canvas.translateY = 0
 
   drawRobot()
-  drawDistanceVector((-80, -90))
-  drawDistanceVector((80, 90))
+  //  drawDistanceVector((-80, -90))
+  //  drawDistanceVector((80, 90))
 
   stage = new PrimaryStage {
     title = "Distance Vectors"
@@ -103,7 +103,7 @@ object GuiMain extends JFXApp {
 
     val transformed = vector match {
 
-      case (x, y) if x < 0 && y < 0 => (centerHeight + Math.abs(x), Math.abs(y))
+      case (x, y) if x < 0 && y < 0 => (centerHeight + Math.abs(x), centerWidth + Math.abs(y))
       case c => c
     }
 
