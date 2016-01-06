@@ -6,19 +6,19 @@ import scala.concurrent.ExecutionContext.Implicits.global
 import scala.concurrent.Future
 
 /**
- * Created by sobota on 23.12.15.
- */
+  * Created by sobota on 23.12.15.
+  */
 case class NetworkConnector(success: LidarPacket => Unit, port: Int = 1080) {
 
   private[this] val socket: DatagramSocket = new DatagramSocket(port)
 
-    // 19 bytes packet * count
+  // 19 bytes packet * count
   socket.setReceiveBufferSize(PACKET_SIZE * 2048)
 
 
   def apply(success: (LidarPacket => Unit) = success): Unit = {
 
-    val future = Future[DatagramPacket]{
+    val future = Future[DatagramPacket] {
 
       val recvPacket = new DatagramPacket(new Array(PACKET_SIZE), PACKET_SIZE)
       synchronized(socket).receive(recvPacket)

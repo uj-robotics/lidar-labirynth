@@ -1,8 +1,8 @@
 package nkr.uj.lidar.network
 
 /**
- * Created by sobota on 23.12.15.
- */
+  * Created by sobota on 23.12.15.
+  */
 case class ReadData(byte0: Byte, byte1: Byte, byte2: Byte, byte3: Byte) {
 
   lazy val toList: List[Byte] = List(byte0, byte1, byte2, byte3)
@@ -12,9 +12,9 @@ case class ReadData(byte0: Byte, byte1: Byte, byte2: Byte, byte3: Byte) {
 
 
   /**
-   * Distance in mm
-   * @return
-   */
+    * Distance in mm
+    * @return
+    */
   def getDistance: Option[Int] = {
 
     if ((byte1 & 0x80) > 0) return None

@@ -1,9 +1,9 @@
 package nkr.uj.lidar.network
 
 /**
- * Created by sobota on 26.12.15.
- */
-object ReadingNumber extends Enumeration{
+  * Created by sobota on 26.12.15.
+  */
+object ReadingNumber extends Enumeration {
 
   type ReadNumber = Value
 

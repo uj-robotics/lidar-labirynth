@@ -22,7 +22,6 @@ object GuiMain extends JFXApp {
   val (width, height) = (600.0, 600.0)
   val (centerWidth, centerHeight) = (width / 2, height / 2)
 
-
   val canvas = new Canvas(width, height)
   implicit val gc = canvas.graphicsContext2D
 
@@ -30,9 +29,19 @@ object GuiMain extends JFXApp {
   canvas.translateY = 0
 
   drawRobot()
-  //  drawDistanceVector((-80, -90))
-  //  drawDistanceVector((80, 90))
+  /*
+    gc.beginPath()
+    gc.strokeLine(centerHeight, centerHeight, 30, 30)
+    gc.strokeLine(centerHeight, centerHeight, 30, -30)
 
+    gc.closePath()
+
+  drawDistanceVector((-4 * 100 * 10, -4 * 100 * 10))
+  drawDistanceVector((3 * 100 * 10, 3 * 100 * 10))
+
+  drawDistanceVector((-6 * 100 * 10, 6 * 100 * 10))
+  drawDistanceVector((6 * 100 * 10, -6 * 100 * 10))
+*/
   stage = new PrimaryStage {
     title = "Distance Vectors"
 
@@ -53,7 +62,6 @@ object GuiMain extends JFXApp {
     runLater {
       packet.getAxisDistance(READ_0) match {
 
-
         case Some(n) => drawDistanceVector(n)
 
         case None => (0, 0)
@@ -73,7 +81,6 @@ object GuiMain extends JFXApp {
 
         case None => (0, 0)
       }
-
 
       packet.getAxisDistance(READ_3) match {
 
@@ -98,26 +105,51 @@ object GuiMain extends JFXApp {
   for (x <- 1 to 100 * 100 * 100)
     connector()
 
-  //Todo repair this calculation on cartesian plane
-  def drawDistanceVector(vector: (Double, Double))(implicit g: GraphicsContext): Unit = {
 
-    val transformed = vector match {
+  def drawDistanceVector(lidarCordinatesData: (Double, Double))(implicit g: GraphicsContext): Unit = {
 
-      case (x, y) if x < 0 && y < 0 => (centerHeight + Math.abs(y), centerWidth + Math.abs(x))
-      case c => c
+    /**
+      * This function handles LIDAR distance values and normalize it to canvas size
+      *
+      * @return
+      * dist._1 x coordinate belongs to (-Canvas_Width/2, Canvas_Width/2)
+      * dist._2 y coordinate belongs to (-Canvas_Height/2, Canvas_Height/2)
+      */
+    //todo handle case when distance over 6M
+    val normalizeDistance = { (dist: (Double, Double)) =>
+
+      val canv = g.getCanvas //todo pass g explicitly
+    val MAX_LIDAR_RANGE = 6 * 100 * 10 // max distance in mm
+    val CANVAS_MARGIN = 10
+
+      val (percentX, percentY) = ((dist._1 / MAX_LIDAR_RANGE) * 100, (dist._2 / MAX_LIDAR_RANGE) * 100)
+
+      val endWidth = ((centerWidth - CANVAS_MARGIN) / 100) * percentX
+      val endHeight = ((centerHeight - CANVAS_MARGIN) / 100) * percentY
+
+      (endWidth, endHeight)
     }
 
-    val margin = 20
-    val MAX_LIDAR_RANGE = 6 * 100 * 10 // max distance in mm
-    val c = g.getCanvas
+    val normalDist = normalizeDistance(lidarCordinatesData)
 
+    /**
+      * This transform normalized coordinates to ScalaFX coordinates
+      */
+    val transformed = (normalizedDist: (Double, Double)) => normalDist match {
 
-    val endWidth = ((c.getWidth / 2 - margin) / MAX_LIDAR_RANGE) * transformed._1
-    val endHeight = ((c.getHeight / 2 - margin) / MAX_LIDAR_RANGE) * transformed._2
+      case (x, y) if x < 0 && y < 0 => (centerWidth + x, centerHeight - y)
+      case (x, y) if x > 0 && y > 0 => (centerWidth + x, centerHeight - y)
+
+      case (x, y) if x < 0 && y > 0 => (centerWidth + x, centerHeight - y)
+      case (x, y) if x > 0 && y < 0 => (centerWidth + x, centerHeight - y)
+
+    }
+
+    val vectorEndPoint = transformed(normalDist)
 
     g.beginPath()
     g.lineWidth = 3
-    g.strokeLine(centerWidth, centerHeight, endWidth, endHeight)
+    g.strokeLine(centerWidth, centerHeight, vectorEndPoint._1, vectorEndPoint._2)
     g.closePath()
 
   }

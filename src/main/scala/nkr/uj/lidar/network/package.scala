@@ -1,8 +1,8 @@
 package nkr.uj.lidar
 
 /**
- * Created by sobota on 23.12.15.
- */
+  * Created by sobota on 23.12.15.
+  */
 package object network {
 
   type Index = Byte

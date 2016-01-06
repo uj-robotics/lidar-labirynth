@@ -22,7 +22,7 @@ object Main extends App {
   }
 
   println("Started")
-  for (x <- 1 to 100 * 100 * 100)
+  for (x <- 1 to 100 * 100 * 10000)
     connector()
 
 

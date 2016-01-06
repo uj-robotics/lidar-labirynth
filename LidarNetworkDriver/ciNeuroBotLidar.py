@@ -49,9 +49,10 @@ a retroreflector.
 
 """
 
-import threading, time, sys, traceback, math
-import serial
 import logging
+import math
+import serial
+import time
 
 from network import network
 
@@ -88,7 +89,6 @@ data -- list of 20 bytes, in the order they arrived in.
 
 
 def readLidar():
-
     logging.basicConfig(filename="lidar.log", level=logging.DEBUG)
 
     global init_level, index
