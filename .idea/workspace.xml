@@ -1,78 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c2a71ff5-cb39-42ce-b0eb-4cc77ad27653" name="Default" comment="Repaired painting distanec on canvas">
+    <list default="true" id="c2a71ff5-cb39-42ce-b0eb-4cc77ad27653" name="Default" comment="Repaired painting distance vector on canvas">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/LidarNetworkDriver/PycharmProjects/LidarNetworkDriver" afterPath="$PROJECT_DIR$/LidarNetworkDriver/PycharmProjects/LidarNetworkDriver" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/project/target/streams/$global/update/$global/streams/update_cache_2.10/inputs" afterPath="$PROJECT_DIR$/project/target/streams/$global/update/$global/streams/update_cache_2.10/inputs" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/project/target/streams/$global/update/$global/streams/update_cache_2.10/output" afterPath="$PROJECT_DIR$/project/target/streams/$global/update/$global/streams/update_cache_2.10/output" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/nkr/uj/lidar/network/Main$.class" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/nkr/uj/lidar/network/Main$.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/streams/$global/update/$global/streams/update_cache_2.11/inputs" afterPath="$PROJECT_DIR$/target/streams/$global/update/$global/streams/update_cache_2.11/inputs" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/streams/$global/update/$global/streams/update_cache_2.11/output" afterPath="$PROJECT_DIR$/target/streams/$global/update/$global/streams/update_cache_2.11/output" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/project/target/resolution-cache/default/robotdataprocessor-build/scala_2.10/sbt_0.13/0.1-SNAPSHOT/resolved.xml.properties" afterPath="$PROJECT_DIR$/project/target/resolution-cache/default/robotdataprocessor-build/scala_2.10/sbt_0.13/0.1-SNAPSHOT/resolved.xml.properties" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/project/target/resolution-cache/default/robotdataprocessor-build/scala_2.10/sbt_0.13/0.1-SNAPSHOT/resolved.xml.xml" afterPath="$PROJECT_DIR$/project/target/resolution-cache/default/robotdataprocessor-build/scala_2.10/sbt_0.13/0.1-SNAPSHOT/resolved.xml.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/project/target/resolution-cache/reports/default-robotdataprocessor-build-compile-internal.xml" afterPath="$PROJECT_DIR$/project/target/resolution-cache/reports/default-robotdataprocessor-build-compile-internal.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/project/target/resolution-cache/reports/default-robotdataprocessor-build-compile.xml" afterPath="$PROJECT_DIR$/project/target/resolution-cache/reports/default-robotdataprocessor-build-compile.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/project/target/resolution-cache/reports/default-robotdataprocessor-build-docs.xml" afterPath="$PROJECT_DIR$/project/target/resolution-cache/reports/default-robotdataprocessor-build-docs.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/project/target/resolution-cache/reports/default-robotdataprocessor-build-optional.xml" afterPath="$PROJECT_DIR$/project/target/resolution-cache/reports/default-robotdataprocessor-build-optional.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/project/target/resolution-cache/reports/default-robotdataprocessor-build-plugin.xml" afterPath="$PROJECT_DIR$/project/target/resolution-cache/reports/default-robotdataprocessor-build-plugin.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/project/target/resolution-cache/reports/default-robotdataprocessor-build-pom.xml" afterPath="$PROJECT_DIR$/project/target/resolution-cache/reports/default-robotdataprocessor-build-pom.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/project/target/resolution-cache/reports/default-robotdataprocessor-build-provided.xml" afterPath="$PROJECT_DIR$/project/target/resolution-cache/reports/default-robotdataprocessor-build-provided.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/project/target/resolution-cache/reports/default-robotdataprocessor-build-runtime-internal.xml" afterPath="$PROJECT_DIR$/project/target/resolution-cache/reports/default-robotdataprocessor-build-runtime-internal.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/project/target/resolution-cache/reports/default-robotdataprocessor-build-runtime.xml" afterPath="$PROJECT_DIR$/project/target/resolution-cache/reports/default-robotdataprocessor-build-runtime.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/project/target/resolution-cache/reports/default-robotdataprocessor-build-scala-tool.xml" afterPath="$PROJECT_DIR$/project/target/resolution-cache/reports/default-robotdataprocessor-build-scala-tool.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/project/target/resolution-cache/reports/default-robotdataprocessor-build-sources.xml" afterPath="$PROJECT_DIR$/project/target/resolution-cache/reports/default-robotdataprocessor-build-sources.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/project/target/resolution-cache/reports/default-robotdataprocessor-build-test-internal.xml" afterPath="$PROJECT_DIR$/project/target/resolution-cache/reports/default-robotdataprocessor-build-test-internal.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/project/target/resolution-cache/reports/default-robotdataprocessor-build-test.xml" afterPath="$PROJECT_DIR$/project/target/resolution-cache/reports/default-robotdataprocessor-build-test.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/project/target/streams/$global/ivyConfiguration/$global/streams/out" afterPath="$PROJECT_DIR$/project/target/streams/$global/ivyConfiguration/$global/streams/out" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/project/target/streams/$global/update/$global/streams/out" afterPath="$PROJECT_DIR$/project/target/streams/$global/update/$global/streams/out" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/project/target/streams/compile/compileIncremental/$global/streams/out" afterPath="$PROJECT_DIR$/project/target/streams/compile/compileIncremental/$global/streams/out" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/project/target/streams/compile/copyResources/$global/streams/out" afterPath="$PROJECT_DIR$/project/target/streams/compile/copyResources/$global/streams/out" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/.history" afterPath="$PROJECT_DIR$/target/.history" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/resolution-cache/reports/robotserver-robotserver$sbt_2.11-default.xml" afterPath="$PROJECT_DIR$/target/resolution-cache/reports/robotserver-robotserver$sbt_2.11-default.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/resolution-cache/reports/robotserver-robotserver$sources_2.11-default.xml" afterPath="$PROJECT_DIR$/target/resolution-cache/reports/robotserver-robotserver$sources_2.11-default.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/resolution-cache/reports/robotserver-robotserver$sources_javadoc_2.11-compile-internal.xml" afterPath="$PROJECT_DIR$/target/resolution-cache/reports/robotserver-robotserver$sources_javadoc_2.11-compile-internal.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/resolution-cache/reports/robotserver-robotserver$sources_javadoc_2.11-compile.xml" afterPath="$PROJECT_DIR$/target/resolution-cache/reports/robotserver-robotserver$sources_javadoc_2.11-compile.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/resolution-cache/reports/robotserver-robotserver$sources_javadoc_2.11-docs.xml" afterPath="$PROJECT_DIR$/target/resolution-cache/reports/robotserver-robotserver$sources_javadoc_2.11-docs.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/resolution-cache/reports/robotserver-robotserver$sources_javadoc_2.11-optional.xml" afterPath="$PROJECT_DIR$/target/resolution-cache/reports/robotserver-robotserver$sources_javadoc_2.11-optional.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/resolution-cache/reports/robotserver-robotserver$sources_javadoc_2.11-plugin.xml" afterPath="$PROJECT_DIR$/target/resolution-cache/reports/robotserver-robotserver$sources_javadoc_2.11-plugin.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/resolution-cache/reports/robotserver-robotserver$sources_javadoc_2.11-pom.xml" afterPath="$PROJECT_DIR$/target/resolution-cache/reports/robotserver-robotserver$sources_javadoc_2.11-pom.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/resolution-cache/reports/robotserver-robotserver$sources_javadoc_2.11-provided.xml" afterPath="$PROJECT_DIR$/target/resolution-cache/reports/robotserver-robotserver$sources_javadoc_2.11-provided.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/resolution-cache/reports/robotserver-robotserver$sources_javadoc_2.11-runtime-internal.xml" afterPath="$PROJECT_DIR$/target/resolution-cache/reports/robotserver-robotserver$sources_javadoc_2.11-runtime-internal.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/resolution-cache/reports/robotserver-robotserver$sources_javadoc_2.11-runtime.xml" afterPath="$PROJECT_DIR$/target/resolution-cache/reports/robotserver-robotserver$sources_javadoc_2.11-runtime.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/resolution-cache/reports/robotserver-robotserver$sources_javadoc_2.11-scala-tool.xml" afterPath="$PROJECT_DIR$/target/resolution-cache/reports/robotserver-robotserver$sources_javadoc_2.11-scala-tool.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/resolution-cache/reports/robotserver-robotserver$sources_javadoc_2.11-sources.xml" afterPath="$PROJECT_DIR$/target/resolution-cache/reports/robotserver-robotserver$sources_javadoc_2.11-sources.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/resolution-cache/reports/robotserver-robotserver$sources_javadoc_2.11-test-internal.xml" afterPath="$PROJECT_DIR$/target/resolution-cache/reports/robotserver-robotserver$sources_javadoc_2.11-test-internal.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/resolution-cache/reports/robotserver-robotserver$sources_javadoc_2.11-test.xml" afterPath="$PROJECT_DIR$/target/resolution-cache/reports/robotserver-robotserver$sources_javadoc_2.11-test.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/resolution-cache/reports/robotserver-robotserver_2.11-compile-internal.xml" afterPath="$PROJECT_DIR$/target/resolution-cache/reports/robotserver-robotserver_2.11-compile-internal.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/resolution-cache/reports/robotserver-robotserver_2.11-compile.xml" afterPath="$PROJECT_DIR$/target/resolution-cache/reports/robotserver-robotserver_2.11-compile.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/resolution-cache/reports/robotserver-robotserver_2.11-docs.xml" afterPath="$PROJECT_DIR$/target/resolution-cache/reports/robotserver-robotserver_2.11-docs.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/resolution-cache/reports/robotserver-robotserver_2.11-optional.xml" afterPath="$PROJECT_DIR$/target/resolution-cache/reports/robotserver-robotserver_2.11-optional.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/resolution-cache/reports/robotserver-robotserver_2.11-plugin.xml" afterPath="$PROJECT_DIR$/target/resolution-cache/reports/robotserver-robotserver_2.11-plugin.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/resolution-cache/reports/robotserver-robotserver_2.11-pom.xml" afterPath="$PROJECT_DIR$/target/resolution-cache/reports/robotserver-robotserver_2.11-pom.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/resolution-cache/reports/robotserver-robotserver_2.11-provided.xml" afterPath="$PROJECT_DIR$/target/resolution-cache/reports/robotserver-robotserver_2.11-provided.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/resolution-cache/reports/robotserver-robotserver_2.11-runtime-internal.xml" afterPath="$PROJECT_DIR$/target/resolution-cache/reports/robotserver-robotserver_2.11-runtime-internal.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/resolution-cache/reports/robotserver-robotserver_2.11-runtime.xml" afterPath="$PROJECT_DIR$/target/resolution-cache/reports/robotserver-robotserver_2.11-runtime.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/resolution-cache/reports/robotserver-robotserver_2.11-scala-tool.xml" afterPath="$PROJECT_DIR$/target/resolution-cache/reports/robotserver-robotserver_2.11-scala-tool.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/resolution-cache/reports/robotserver-robotserver_2.11-sources.xml" afterPath="$PROJECT_DIR$/target/resolution-cache/reports/robotserver-robotserver_2.11-sources.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/resolution-cache/reports/robotserver-robotserver_2.11-test-internal.xml" afterPath="$PROJECT_DIR$/target/resolution-cache/reports/robotserver-robotserver_2.11-test-internal.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/resolution-cache/reports/robotserver-robotserver_2.11-test.xml" afterPath="$PROJECT_DIR$/target/resolution-cache/reports/robotserver-robotserver_2.11-test.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/resolution-cache/robotserver/robotserver$sbt_2.11/1.0/resolved.xml.properties" afterPath="$PROJECT_DIR$/target/resolution-cache/robotserver/robotserver$sbt_2.11/1.0/resolved.xml.properties" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/resolution-cache/robotserver/robotserver$sbt_2.11/1.0/resolved.xml.xml" afterPath="$PROJECT_DIR$/target/resolution-cache/robotserver/robotserver$sbt_2.11/1.0/resolved.xml.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/resolution-cache/robotserver/robotserver$sources_2.11/1.0/resolved.xml.properties" afterPath="$PROJECT_DIR$/target/resolution-cache/robotserver/robotserver$sources_2.11/1.0/resolved.xml.properties" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/resolution-cache/robotserver/robotserver$sources_2.11/1.0/resolved.xml.xml" afterPath="$PROJECT_DIR$/target/resolution-cache/robotserver/robotserver$sources_2.11/1.0/resolved.xml.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/resolution-cache/robotserver/robotserver$sources_javadoc_2.11/1.0/resolved.xml.properties" afterPath="$PROJECT_DIR$/target/resolution-cache/robotserver/robotserver$sources_javadoc_2.11/1.0/resolved.xml.properties" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/resolution-cache/robotserver/robotserver$sources_javadoc_2.11/1.0/resolved.xml.xml" afterPath="$PROJECT_DIR$/target/resolution-cache/robotserver/robotserver$sources_javadoc_2.11/1.0/resolved.xml.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/resolution-cache/robotserver/robotserver_2.11/1.0/resolved.xml.properties" afterPath="$PROJECT_DIR$/target/resolution-cache/robotserver/robotserver_2.11/1.0/resolved.xml.properties" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/resolution-cache/robotserver/robotserver_2.11/1.0/resolved.xml.xml" afterPath="$PROJECT_DIR$/target/resolution-cache/robotserver/robotserver_2.11/1.0/resolved.xml.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/streams/$global/ivyConfiguration/$global/streams/out" afterPath="$PROJECT_DIR$/target/streams/$global/ivyConfiguration/$global/streams/out" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/streams/$global/update/$global/streams/out" afterPath="$PROJECT_DIR$/target/streams/$global/update/$global/streams/out" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/streams/$global/updateClassifiers/$global/streams/out" afterPath="$PROJECT_DIR$/target/streams/$global/updateClassifiers/$global/streams/out" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/streams/$global/updateSbtClassifiers/$global/streams/out" afterPath="$PROJECT_DIR$/target/streams/$global/updateSbtClassifiers/$global/streams/out" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/streams/compile/compileIncremental/$global/streams/export" afterPath="$PROJECT_DIR$/target/streams/compile/compileIncremental/$global/streams/export" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/streams/compile/compileIncremental/$global/streams/out" afterPath="$PROJECT_DIR$/target/streams/compile/compileIncremental/$global/streams/out" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/streams/compile/incCompileSetup/$global/streams/inc_compile_2.11" afterPath="$PROJECT_DIR$/target/streams/compile/incCompileSetup/$global/streams/inc_compile_2.11" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/streams/compile/run/$global/streams/out" afterPath="$PROJECT_DIR$/target/streams/compile/run/$global/streams/out" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/project/target/resolution-cache/default/robotserver-build/scala_2.10/sbt_0.13/0.1-SNAPSHOT/resolved.xml.xml" afterPath="$PROJECT_DIR$/project/target/resolution-cache/default/robotserver-build/scala_2.10/sbt_0.13/0.1-SNAPSHOT/resolved.xml.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/project/target/resolution-cache/reports/default-robotserver-build-compile-internal.xml" afterPath="$PROJECT_DIR$/project/target/resolution-cache/reports/default-robotserver-build-compile-internal.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/project/target/resolution-cache/reports/default-robotserver-build-compile.xml" afterPath="$PROJECT_DIR$/project/target/resolution-cache/reports/default-robotserver-build-compile.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/project/target/resolution-cache/reports/default-robotserver-build-docs.xml" afterPath="$PROJECT_DIR$/project/target/resolution-cache/reports/default-robotserver-build-docs.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/project/target/resolution-cache/reports/default-robotserver-build-optional.xml" afterPath="$PROJECT_DIR$/project/target/resolution-cache/reports/default-robotserver-build-optional.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/project/target/resolution-cache/reports/default-robotserver-build-plugin.xml" afterPath="$PROJECT_DIR$/project/target/resolution-cache/reports/default-robotserver-build-plugin.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/project/target/resolution-cache/reports/default-robotserver-build-pom.xml" afterPath="$PROJECT_DIR$/project/target/resolution-cache/reports/default-robotserver-build-pom.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/project/target/resolution-cache/reports/default-robotserver-build-provided.xml" afterPath="$PROJECT_DIR$/project/target/resolution-cache/reports/default-robotserver-build-provided.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/project/target/resolution-cache/reports/default-robotserver-build-runtime-internal.xml" afterPath="$PROJECT_DIR$/project/target/resolution-cache/reports/default-robotserver-build-runtime-internal.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/project/target/resolution-cache/reports/default-robotserver-build-runtime.xml" afterPath="$PROJECT_DIR$/project/target/resolution-cache/reports/default-robotserver-build-runtime.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/project/target/resolution-cache/reports/default-robotserver-build-scala-tool.xml" afterPath="$PROJECT_DIR$/project/target/resolution-cache/reports/default-robotserver-build-scala-tool.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/project/target/resolution-cache/reports/default-robotserver-build-sources.xml" afterPath="$PROJECT_DIR$/project/target/resolution-cache/reports/default-robotserver-build-sources.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/project/target/resolution-cache/reports/default-robotserver-build-test-internal.xml" afterPath="$PROJECT_DIR$/project/target/resolution-cache/reports/default-robotserver-build-test-internal.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/project/target/resolution-cache/reports/default-robotserver-build-test.xml" afterPath="$PROJECT_DIR$/project/target/resolution-cache/reports/default-robotserver-build-test.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/project/target/resolution-cache/reports/ivy-report.xsl" afterPath="$PROJECT_DIR$/project/target/resolution-cache/reports/ivy-report.xsl" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/scala/nkr/uj/lidar/graphics/GuiMain.scala" afterPath="$PROJECT_DIR$/src/main/scala/nkr/uj/lidar/graphics/GuiMain.scala" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/resolution-cache/reports/ivy-report.css" afterPath="$PROJECT_DIR$/target/resolution-cache/reports/ivy-report.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/resolution-cache/reports/ivy-report.xsl" afterPath="$PROJECT_DIR$/target/resolution-cache/reports/ivy-report.xsl" />
     </list>
     <ignored path="RobotServer.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -113,8 +62,8 @@
       <file leaf-file-name="GuiMain.scala" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/scala/nkr/uj/lidar/graphics/GuiMain.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.21612903">
-              <caret line="117" column="22" selection-start-line="117" selection-start-column="22" selection-end-line="117" selection-end-column="22" />
+            <state vertical-scroll-proportion="-0.5168919">
+              <caret line="55" column="5" selection-start-line="55" selection-start-column="5" selection-end-line="55" selection-end-column="5" />
               <folding>
                 <element signature="e#31#63#0" expanded="true" />
               </folding>
@@ -1083,7 +1032,7 @@
       <workItem from="1451255934480" duration="1407000" />
       <workItem from="1451259467117" duration="23831000" />
       <workItem from="1451987841603" duration="4440000" />
-      <workItem from="1452031358718" duration="15098000" />
+      <workItem from="1452031358718" duration="17006000" />
     </task>
     <task id="LOCAL-00001" summary="Repaired Intellij config">
       <created>1451260405042</created>
@@ -1115,11 +1064,17 @@
       <option name="project" value="LOCAL" />
       <updated>1452100879184</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Repaired painting distance vector on canvas">
+      <created>1452100909879</created>
+      <option name="number" value="00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1452100909879</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="82217000" />
+    <option name="totallyTimeSpent" value="84125000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-1" y="1" width="1368" height="768" extended-state="6" />
@@ -1169,7 +1124,8 @@
     <MESSAGE value="Breaked Painting on canvas" />
     <MESSAGE value="Painting on canvas with some bugs" />
     <MESSAGE value="Repaired painting distanec on canvas" />
-    <option name="LAST_COMMIT_MESSAGE" value="Repaired painting distanec on canvas" />
+    <MESSAGE value="Repaired painting distance vector on canvas" />
+    <option name="LAST_COMMIT_MESSAGE" value="Repaired painting distance vector on canvas" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
@@ -1582,8 +1538,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/scala/nkr/uj/lidar/graphics/GuiMain.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.21612903">
-          <caret line="117" column="22" selection-start-line="117" selection-start-column="22" selection-end-line="117" selection-end-column="22" />
+        <state vertical-scroll-proportion="-0.5168919">
+          <caret line="55" column="5" selection-start-line="55" selection-start-column="5" selection-end-line="55" selection-end-column="5" />
           <folding>
             <element signature="e#31#63#0" expanded="true" />
           </folding>

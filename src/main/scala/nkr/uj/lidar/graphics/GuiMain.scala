@@ -30,18 +30,20 @@ object GuiMain extends JFXApp {
 
   drawRobot()
   /*
-    gc.beginPath()
-    gc.strokeLine(centerHeight, centerHeight, 30, 30)
-    gc.strokeLine(centerHeight, centerHeight, 30, -30)
+      gc.beginPath()
+      gc.strokeLine(centerHeight, centerHeight, 30, 30)
+      gc.strokeLine(centerHeight, centerHeight, 30, -30)
 
-    gc.closePath()
+      gc.closePath()
+  */
 
-  drawDistanceVector((-4 * 100 * 10, -4 * 100 * 10))
-  drawDistanceVector((3 * 100 * 10, 3 * 100 * 10))
+  /*  drawDistanceVector((-4 * 100 * 10, -4 * 100 * 10))
+    drawDistanceVector((3 * 100 * 10, 3 * 100 * 10))
 
-  drawDistanceVector((-6 * 100 * 10, 6 * 100 * 10))
-  drawDistanceVector((6 * 100 * 10, -6 * 100 * 10))
-*/
+    drawDistanceVector((-6 * 100 * 10, 6 * 100 * 10))
+    drawDistanceVector((6 * 100 * 10, -6 * 100 * 10))
+  drawDistanceVector((-0 * 100 * 10, 0 * 100 * 10))*/
+
   stage = new PrimaryStage {
     title = "Distance Vectors"
 
@@ -119,13 +121,15 @@ object GuiMain extends JFXApp {
     val normalizeDistance = { (dist: (Double, Double)) =>
 
       val canv = g.getCanvas //todo pass g explicitly
-    val MAX_LIDAR_RANGE = 6 * 100 * 10 // max distance in mm
+
+      val MAX_LIDAR_RANGE = 6 * 100 * 10 // max distance in mm
     val CANVAS_MARGIN = 10
 
+      val (canvasWithCenter, canvasHeightCenter) = (canv.getWidth / 2, canv.getHeight / 2)
       val (percentX, percentY) = ((dist._1 / MAX_LIDAR_RANGE) * 100, (dist._2 / MAX_LIDAR_RANGE) * 100)
 
-      val endWidth = ((centerWidth - CANVAS_MARGIN) / 100) * percentX
-      val endHeight = ((centerHeight - CANVAS_MARGIN) / 100) * percentY
+      val endWidth = ((canvasWithCenter - CANVAS_MARGIN) / 100) * percentX
+      val endHeight = ((canvasHeightCenter - CANVAS_MARGIN) / 100) * percentY
 
       (endWidth, endHeight)
     }
@@ -143,6 +147,7 @@ object GuiMain extends JFXApp {
       case (x, y) if x < 0 && y > 0 => (centerWidth + x, centerHeight - y)
       case (x, y) if x > 0 && y < 0 => (centerWidth + x, centerHeight - y)
 
+      case (0, 0) => (centerWidth, centerHeight)
     }
 
     val vectorEndPoint = transformed(normalDist)
