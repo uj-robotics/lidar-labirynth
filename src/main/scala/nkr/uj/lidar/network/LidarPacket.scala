@@ -36,7 +36,7 @@ case class LidarPacket(index: Index, speed: Speed, data0: ReadData, data1: ReadD
         val degRad = ((index * 4 + 1) * PI) / 180.0
 
         data1.getDistance match {
-          case Some(x) => Some((cos(degRad) * x, -sin(degRad) * x))
+          case Some(x) => Some((x * cos(degRad), -x * sin(degRad)))
           case None => None
         }
       }

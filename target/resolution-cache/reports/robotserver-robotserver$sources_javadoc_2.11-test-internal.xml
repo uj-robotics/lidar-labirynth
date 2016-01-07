@@ -7,7 +7,7 @@
 		revision="1.0"
 		conf="test-internal"
 		confs="compile, runtime, test, provided, optional, compile-internal, runtime-internal, test-internal, plugin, sources, docs, pom, scala-tool"
-		date="20160107115310"/>
+		date="20160107122616"/>
 	<dependencies>
 		<module organisation="org.scalafx" name="scalafx_2.11">
 			<revision name="8.0.60-R9" status="release" pubdate="20151002062009" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://code.google.com/p/scalafx/" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="1">
