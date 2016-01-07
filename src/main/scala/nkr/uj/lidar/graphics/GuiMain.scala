@@ -35,14 +35,15 @@ object GuiMain extends JFXApp {
       gc.strokeLine(centerHeight, centerHeight, 30, -30)
 
       gc.closePath()
-  */
 
-  /*  drawDistanceVector((-4 * 100 * 10, -4 * 100 * 10))
+
+    drawDistanceVector((-4 * 100 * 10, -4 * 100 * 10))
     drawDistanceVector((3 * 100 * 10, 3 * 100 * 10))
 
     drawDistanceVector((-6 * 100 * 10, 6 * 100 * 10))
     drawDistanceVector((6 * 100 * 10, -6 * 100 * 10))
-  drawDistanceVector((-0 * 100 * 10, 0 * 100 * 10))*/
+  drawDistanceVector((-0 * 100 * 10, 0 * 100 * 10))
+  */
 
   stage = new PrimaryStage {
     title = "Distance Vectors"
@@ -153,7 +154,7 @@ object GuiMain extends JFXApp {
     val vectorEndPoint = transformed(normalDist)
 
     g.beginPath()
-    g.lineWidth = 3
+    g.lineWidth = 2
     g.strokeLine(centerWidth, centerHeight, vectorEndPoint._1, vectorEndPoint._2)
     g.closePath()
 

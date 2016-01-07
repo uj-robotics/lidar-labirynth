@@ -6,7 +6,7 @@
 [debug] == resolving dependencies for robotserver#robotserver$sources_javadoc_2.11;1.0 [compile]
 [debug] == resolving dependencies robotserver#robotserver$sources_javadoc_2.11;1.0->org.scala-lang#scala-library;2.11.7 [compile->default(compile)]
 [info] Resolving org.scala-lang#scala-library;2.11.7 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@595b3d41
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@5d5cc4e
 [debug] sbt-chain: module revision found in cache: org.scala-lang#scala-library;2.11.7
 [debug] 	found org.scala-lang#scala-library;2.11.7 in sbt-chain
 [debug] 	[2.11.7] org.scala-lang#scala-library;2.11.7
@@ -15,7 +15,7 @@
 [debug] == resolving dependencies robotserver#robotserver$sources_javadoc_2.11;1.0->org.scala-lang#scala-library;2.11.7 [compile->master]
 [debug] == resolving dependencies robotserver#robotserver$sources_javadoc_2.11;1.0->org.scalafx#scalafx_2.11;8.0.60-R9 [compile->default(compile)]
 [info] Resolving org.scalafx#scalafx_2.11;8.0.60-R9 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@54422d17
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@4365279d
 [debug] sbt-chain: module revision found in cache: org.scalafx#scalafx_2.11;8.0.60-R9
 [debug] 	found org.scalafx#scalafx_2.11;8.0.60-R9 in sbt-chain
 [debug] == resolving dependencies robotserver#robotserver$sources_javadoc_2.11;1.0->org.scalafx#scalafx_2.11;8.0.60-R9 [compile->runtime]
@@ -23,7 +23,7 @@
 [debug] == resolving dependencies robotserver#robotserver$sources_javadoc_2.11;1.0->org.scalafx#scalafx_2.11;8.0.60-R9 [compile->master]
 [debug] == resolving dependencies robotserver#robotserver$sources_javadoc_2.11;1.0->org.scala-lang#scala-reflect;2.11.7 [compile->default(compile)]
 [info] Resolving org.scala-lang#scala-reflect;2.11.7 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@7944dd53
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@5fb4ac18
 [debug] sbt-chain: module revision found in cache: org.scala-lang#scala-reflect;2.11.7
 [debug] 	found org.scala-lang#scala-reflect;2.11.7 in sbt-chain
 [debug] 	[2.11.7] org.scala-lang#scala-reflect;2.11.7
@@ -295,7 +295,7 @@
 [debug] 	[NOT REQUIRED] org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4!scala-parser-combinators_2.11.jar(src)
 [debug] 	[NOT REQUIRED] jline#jline;2.12.1!jline.jar(src)
 [debug] 	[NOT REQUIRED] jline#jline;2.12.1!jline.jar(doc)
-[debug] :: resolution report :: resolve 230ms :: artifacts dl 29ms
+[debug] :: resolution report :: resolve 137ms :: artifacts dl 17ms
 [debug] 	report for robotserver#robotserver$sources_javadoc_2.11;1.0 compile produced in /home/sobota/IdeaProjects/RobotDataProcessor/target/resolution-cache/reports/robotserver-robotserver$sources_javadoc_2.11-compile.xml
 [debug] 	report for robotserver#robotserver$sources_javadoc_2.11;1.0 runtime produced in /home/sobota/IdeaProjects/RobotDataProcessor/target/resolution-cache/reports/robotserver-robotserver$sources_javadoc_2.11-runtime.xml
 [debug] 	report for robotserver#robotserver$sources_javadoc_2.11;1.0 test produced in /home/sobota/IdeaProjects/RobotDataProcessor/target/resolution-cache/reports/robotserver-robotserver$sources_javadoc_2.11-test.xml
@@ -309,4 +309,4 @@
 [debug] 	report for robotserver#robotserver$sources_javadoc_2.11;1.0 docs produced in /home/sobota/IdeaProjects/RobotDataProcessor/target/resolution-cache/reports/robotserver-robotserver$sources_javadoc_2.11-docs.xml
 [debug] 	report for robotserver#robotserver$sources_javadoc_2.11;1.0 pom produced in /home/sobota/IdeaProjects/RobotDataProcessor/target/resolution-cache/reports/robotserver-robotserver$sources_javadoc_2.11-pom.xml
 [debug] 	report for robotserver#robotserver$sources_javadoc_2.11;1.0 scala-tool produced in /home/sobota/IdeaProjects/RobotDataProcessor/target/resolution-cache/reports/robotserver-robotserver$sources_javadoc_2.11-scala-tool.xml
-[debug] 	resolve done (230ms resolve - 29ms download)
+[debug] 	resolve done (137ms resolve - 17ms download)
