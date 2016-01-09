@@ -4,6 +4,7 @@ import nkr.uj.lidar.network.ReadingNumber._
 
 import scala.concurrent.ExecutionContext.Implicits.global
 import scala.concurrent.Future
+import scala.math.abs
 
 /**
   * Created by sobota on 07.01.16.
@@ -50,12 +51,18 @@ case class LidarDataProcessor(paint: (((Double, Double)) => (Double, Double)) =>
   //run in separated thread
   Future {
     println("Started")
-    while (true) connector()
+
+    while (true) {
+      Thread.sleep(100) //todo ugly solution to refactor
+      connector()
+    }
   }
 
-  private val calculateCoordinate = { (lidarCordinatesData: (Double, Double), canvasSize: (Double, Double)) =>
+  private val calculateCoordinate: ((Double, Double), (Double, Double)) => (Double, Double) = { (lidarCordinatesData: (Double, Double), canvasSize: (Double, Double)) =>
 
     val (canvasWidthCenter, canvasHeightCenter) = (canvasSize._1 / 2, canvasSize._2 / 2)
+
+    val MAX_LIDAR_RANGE = 6 * 100 * 10 // max LIDAR distance in mm
 
     /**
       * This function handles LIDAR distance values and normalize it to canvas size
@@ -64,11 +71,9 @@ case class LidarDataProcessor(paint: (((Double, Double)) => (Double, Double)) =>
       * dist._1 x coordinate belongs to (-Canvas_Width/2, Canvas_Width/2)
       * dist._2 y coordinate belongs to (-Canvas_Height/2, Canvas_Height/2)
       */
-    //todo handle case when distance over 6M
     val normalizeDistance = { (dist: (Double, Double)) =>
 
-      val MAX_LIDAR_RANGE = 6 * 100 * 10 // max distance in mm
-    val CANVAS_MARGIN = 10
+      val CANVAS_MARGIN = 10
 
       val (percentX, percentY) = ((dist._1 / MAX_LIDAR_RANGE) * 100, (dist._2 / MAX_LIDAR_RANGE) * 100)
 
@@ -78,12 +83,10 @@ case class LidarDataProcessor(paint: (((Double, Double)) => (Double, Double)) =>
       (endWidth, endHeight)
     }
 
-    val normalDist = normalizeDistance(lidarCordinatesData)
-
     /**
       * This transform normalized coordinates to ScalaFX coordinates
       */
-    val transformed = (normalizedDist: (Double, Double)) => normalDist match {
+    val transformed = (normalizedDist: (Double, Double)) => normalizedDist match {
 
       case (x, y) if x < 0 && y < 0 => (canvasWidthCenter + x, canvasHeightCenter - y)
       case (x, y) if x > 0 && y > 0 => (canvasWidthCenter + x, canvasHeightCenter - y)
@@ -94,13 +97,38 @@ case class LidarDataProcessor(paint: (((Double, Double)) => (Double, Double)) =>
       case (0, 0) => (canvasWidthCenter, canvasHeightCenter)
     }
 
-    transformed(normalDist)
+    /**
+      * Remove noise from LIDAR distance data
+      *
+      * @return
+      * if x or y exceeded LIDAR_RANGE return (0, 0)
+      * else
+      * return proper value
+      */
+    val filterNoise: ((Double, Double)) => (Double, Double) = { distance: (Double, Double) =>
+
+      if (abs(distance._1) > MAX_LIDAR_RANGE || abs(distance._2) > MAX_LIDAR_RANGE) (0.0, 0.0)
+
+      distance
+    }
+
+
+    filterNoise(lidarCordinatesData) match {
+
+      case (0.0, 0.0) => (0.0, 0.0)
+      case d => {
+
+        val normalDist = normalizeDistance(d)
+
+        transformed(normalDist)
+      }
+    }
+
   }
 
   def finish(): Unit = {
 
     connector.finish()
   }
-
 
 }

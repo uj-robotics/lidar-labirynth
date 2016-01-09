@@ -4,7 +4,7 @@
 		module="robotserver$sbt_2.11"
 		revision="1.0"
 		status="integration"
-		publication="20160107122613"
+		publication="20160108093536"
 	/>
 	<configurations>
 		<conf name="default" visibility="public"/>

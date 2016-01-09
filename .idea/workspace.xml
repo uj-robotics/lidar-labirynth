@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c2a71ff5-cb39-42ce-b0eb-4cc77ad27653" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/scala/nkr/uj/lidar/network/LidarDataProcessor.scala" />
+    <list default="true" id="c2a71ff5-cb39-42ce-b0eb-4cc77ad27653" name="Default" comment="Refactored to MVC">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/LidarNetworkDriver/PycharmProjects/LidarNetworkDriver" afterPath="$PROJECT_DIR$/LidarNetworkDriver/PycharmProjects/LidarNetworkDriver" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/project/target/streams/$global/update/$global/streams/update_cache_2.10/output" afterPath="$PROJECT_DIR$/project/target/streams/$global/update/$global/streams/update_cache_2.10/output" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/nkr/uj/lidar/network/LidarPacket.class" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/nkr/uj/lidar/network/LidarPacket.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/streams/$global/update/$global/streams/update_cache_2.11/output" afterPath="$PROJECT_DIR$/target/streams/$global/update/$global/streams/update_cache_2.11/output" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/project/target/resolution-cache/default/robotdataprocessor-build/scala_2.10/sbt_0.13/0.1-SNAPSHOT/resolved.xml.properties" afterPath="$PROJECT_DIR$/project/target/resolution-cache/default/robotdataprocessor-build/scala_2.10/sbt_0.13/0.1-SNAPSHOT/resolved.xml.properties" />
@@ -23,8 +23,7 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/project/target/resolution-cache/reports/default-robotdataprocessor-build-test-internal.xml" afterPath="$PROJECT_DIR$/project/target/resolution-cache/reports/default-robotdataprocessor-build-test-internal.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/project/target/resolution-cache/reports/default-robotdataprocessor-build-test.xml" afterPath="$PROJECT_DIR$/project/target/resolution-cache/reports/default-robotdataprocessor-build-test.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/project/target/streams/$global/update/$global/streams/out" afterPath="$PROJECT_DIR$/project/target/streams/$global/update/$global/streams/out" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/scala/nkr/uj/lidar/graphics/GuiMain.scala" afterPath="$PROJECT_DIR$/src/main/scala/nkr/uj/lidar/graphics/GuiMain.scala" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/scala/nkr/uj/lidar/network/LidarPacket.scala" afterPath="$PROJECT_DIR$/src/main/scala/nkr/uj/lidar/network/LidarPacket.scala" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/scala/nkr/uj/lidar/network/LidarDataProcessor.scala" afterPath="$PROJECT_DIR$/src/main/scala/nkr/uj/lidar/network/LidarDataProcessor.scala" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/.history" afterPath="$PROJECT_DIR$/target/.history" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/resolution-cache/reports/robotserver-robotserver$sbt_2.11-default.xml" afterPath="$PROJECT_DIR$/target/resolution-cache/reports/robotserver-robotserver$sbt_2.11-default.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/resolution-cache/reports/robotserver-robotserver$sources_2.11-default.xml" afterPath="$PROJECT_DIR$/target/resolution-cache/reports/robotserver-robotserver$sources_2.11-default.xml" />
@@ -105,14 +104,24 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="GuiMain.scala" pinned="false" current-in-tab="true">
+      <file leaf-file-name="LidarDataProcessor.scala" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/scala/nkr/uj/lidar/network/LidarDataProcessor.scala">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="1.7068965">
+              <caret line="122" column="25" selection-start-line="122" selection-start-column="25" selection-end-line="122" selection-end-column="25" />
+              <folding>
+                <element signature="e#30#73#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="GuiMain.scala" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/scala/nkr/uj/lidar/graphics/GuiMain.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.42122185">
-              <caret line="75" column="37" selection-start-line="75" selection-start-column="37" selection-end-line="75" selection-end-column="37" />
-              <folding>
-                <element signature="e#31#63#0" expanded="true" />
-              </folding>
+            <state vertical-scroll-proportion="0.0">
+              <caret line="33" column="0" selection-start-line="33" selection-start-column="0" selection-end-line="48" selection-end-column="0" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -170,10 +179,9 @@
     <detection-done>true</detection-done>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="-1" />
-    <option name="y" value="1" />
-    <option name="width" value="1368" />
-    <option name="height" value="768" />
+    <option name="x" value="1365" />
+    <option name="width" value="1922" />
+    <option name="height" value="1201" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <OptionsSetting value="true" id="Add" />
@@ -202,7 +210,6 @@
     <panes>
       <pane id="PackagesPane" />
       <pane id="Scope" />
-      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -377,6 +384,7 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -1037,7 +1045,7 @@
     </configuration>
   </component>
   <component name="SbtLocalSettings">
-    <option name="lastUpdateTimestamp" value="1452165977078" />
+    <option name="lastUpdateTimestamp" value="1452242139231" />
     <option name="availableProjects">
       <map>
         <entry>
@@ -1088,7 +1096,8 @@
       <workItem from="1452031358718" duration="17115000" />
       <workItem from="1452103686290" duration="427000" />
       <workItem from="1452154303776" duration="16024000" />
-      <workItem from="1452181638777" duration="6293000" />
+      <workItem from="1452181638777" duration="6486000" />
+      <workItem from="1452242101158" duration="5233000" />
     </task>
     <task id="LOCAL-00001" summary="Repaired Intellij config">
       <created>1451260405042</created>
@@ -1138,29 +1147,34 @@
       <option name="project" value="LOCAL" />
       <updated>1452165938979</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Refactored to MVC">
+      <created>1452192054728</created>
+      <option name="number" value="00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1452192054728</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="106978000" />
+    <option name="totallyTimeSpent" value="112404000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-1" y="1" width="1368" height="768" extended-state="6" />
-    <editor active="true" />
+    <frame x="1365" y="0" width="1922" height="1201" extended-state="6" />
+    <editor active="false" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32511556" sideWeight="0.49697885" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="SBT" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.30602783" sideWeight="0.5030211" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.37596303" sideWeight="0.49697885" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2245841" sideWeight="0.49697885" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32980332" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24169184" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.17039403" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -1172,6 +1186,7 @@
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32511556" sideWeight="0.49697885" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3283582" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
@@ -1193,7 +1208,8 @@
     <MESSAGE value="Painting on canvas with some bugs" />
     <MESSAGE value="Repaired painting distanec on canvas" />
     <MESSAGE value="Repaired painting distance vector on canvas" />
-    <option name="LAST_COMMIT_MESSAGE" value="Repaired painting distance vector on canvas" />
+    <MESSAGE value="Refactored to MVC" />
+    <option name="LAST_COMMIT_MESSAGE" value="Refactored to MVC" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
@@ -1250,9 +1266,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#31#63#0" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1292,9 +1306,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="1" column="18" selection-start-line="1" selection-start-column="18" selection-end-line="1" selection-end-column="18" />
-          <folding>
-            <element signature="e#31#63#0" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1334,9 +1346,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="1" column="18" selection-start-line="1" selection-start-column="18" selection-end-line="1" selection-end-column="18" />
-          <folding>
-            <element signature="e#31#63#0" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1604,22 +1614,20 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/nkr/uj/lidar/network/LidarDataProcessor.scala">
+    <entry file="file://$PROJECT_DIR$/src/main/scala/nkr/uj/lidar/graphics/GuiMain.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.6240876">
-          <caret line="45" column="64" selection-start-line="45" selection-start-column="64" selection-end-line="45" selection-end-column="64" />
-          <folding>
-            <element signature="e#30#73#0" expanded="true" />
-          </folding>
+        <state vertical-scroll-proportion="0.0">
+          <caret line="33" column="0" selection-start-line="33" selection-start-column="0" selection-end-line="48" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/nkr/uj/lidar/graphics/GuiMain.scala">
+    <entry file="file://$PROJECT_DIR$/src/main/scala/nkr/uj/lidar/network/LidarDataProcessor.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.42122185">
-          <caret line="75" column="37" selection-start-line="75" selection-start-column="37" selection-end-line="75" selection-end-column="37" />
+        <state vertical-scroll-proportion="1.7068965">
+          <caret line="122" column="25" selection-start-line="122" selection-start-column="25" selection-end-line="122" selection-end-column="25" />
           <folding>
-            <element signature="e#31#63#0" expanded="true" />
+            <element signature="e#30#73#0" expanded="true" />
           </folding>
         </state>
       </provider>
