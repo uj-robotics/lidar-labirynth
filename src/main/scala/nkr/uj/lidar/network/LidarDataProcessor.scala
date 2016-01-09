@@ -115,7 +115,7 @@ case class LidarDataProcessor(paint: (((Double, Double)) => (Double, Double)) =>
 
     filterNoise(lidarCordinatesData) match {
 
-      case (0.0, 0.0) => (0.0, 0.0)
+      case (0.0, 0.0) => transformed(0.0, 0.0)
       case d => {
 
         val normalDist = normalizeDistance(d)
